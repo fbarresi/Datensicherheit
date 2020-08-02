@@ -5,20 +5,21 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 1. Benennen Sie 5 der 7 Gewährleistungsziele des Datenschutzes und beschreiben Sie diese kurz.
 
-    - Datenminimierung: Der Gesetzgeber fordert, dass personenbezogene Daten dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein müssen (Art. 5 Abs. 1 lit. c DS-GVO).
-    - Verfügbarkeit: Er gewährleistet die Verfügbarkeit der Daten zu dem jeweiligen Zweck, solange dieser noch besteht.
-    - Integrität: Grundsatz für die Verarbeitung von personenbezogenen Daten. So sind u. a. unbefugte Veränderungen und Entfernungen auszuschließen.
-    - Vertraulichkeit: z.B. Schutz der Daten vor unbefugten Zugriff.
-    - Transparenz: In Art. 12 Abs. 1 S. 1 DS-GVO wird gefordert, dass der Verantwortliche geeignete Maßnahmen trifft, um der betroffenen Person alle Informationen bezüglich der Informationspflichten aus Art. 13 und 14 DS-GVO und alle Mitteilungen gemäß den Art. 15 bis 22 und 34 DS-GVO, die sich auf die Verarbeitung beziehen, in präziser, transparenter, verständlicher und leicht zugänglicher Form in einer klaren und einfachen Sprache zu übermitteln.
-
+    - **Datenminimierung**: Der Gesetzgeber fordert, dass personenbezogene Daten dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein müssen (Art. 5 Abs. 1 lit. c DS-GVO).
+    - **Verfügbarkeit**: Er gewährleistet die Verfügbarkeit der Daten zu dem jeweiligen Zweck, solange dieser noch besteht.
+    - **Integrität**: Grundsatz für die Verarbeitung von personenbezogenen Daten. So sind u. a. unbefugte Veränderungen und Entfernungen auszuschließen.
+    - **Vertraulichkeit**: z.B. Schutz der Daten vor unbefugten Zugriff.
+    - **Transparenz**: In Art. 12 Abs. 1 S. 1 DS-GVO wird gefordert, dass der Verantwortliche geeignete Maßnahmen trifft, um der betroffenen Person alle Informationen bezüglich der Informationspflichten aus Art. 13 und 14 DS-GVO und alle Mitteilungen gemäß den Art. 15 bis 22 und 34 DS-GVO, die sich auf die Verarbeitung beziehen, in präziser, transparenter, verständlicher und leicht zugänglicher Form in einer klaren und einfachen Sprache zu übermitteln.
+    - **Nichtverkettnug**: bezeichnet die Anforderung, dass personenbezogene Daten nicht zusammengeführt, also verkettet, werden
+    - **Intervenierbarkeit**: bezeichnet die Anforderung, dass den betroffenen Personen die ihnen zustehenden Rechte auf Benachrichtigung, Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch und Erwirkung des Eingriffs in automatisierte  einzelentscheidungen bei Bestehen der gesetzlichen Voraussetzungen unverzüglich und wirksam gewährt werden und die verarbeitende Stelle verpflichtet ist, die entsprechenden Maßnahmen umzusetzen. Soweit der Verantwortliche über Informationen verfügt, die es ihm erlauben, die betroffenen Personen zu identifizieren, muss er auch Maßnahmen zur Identifizierung und Authentifizierung der betroffenen Personen, die ihre Rechte wahrnehmen möchten, treffen.
 
 2. Bennen Sie 5 besondere Kategorien personenbezogener Daten und was gilt für diese grundsätzlich?
-    - Rassische /  ethnische Herkunft
+    - Rassische / ethnische Herkunft
     - Politische Meinungen
     - Religion, Weltanschauung
     - Zugehörigkeit zu Gewerkschaften
-    - Gesundheitsdaten, genetische Daten => Verarbeitung grundsätzlich verboten, nur bestimmte Ausnahmen.
-
+    - Gesundheitsdaten, genetische Daten
+    - **Verarbeitung grundsätzlich verboten, nur bestimmte Ausnahmen.**
 
 3. Welche Rechte im Kontext des Datenschutzes haben Sie als betroffene Person, deren Daten verarbeitet werden?
     - Recht auf Information zu Datenschutzrechten
@@ -31,14 +32,12 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Widerspruch
     - Recht auf „menschliche“ Entscheidung
 
-
 4. Worauf müssen Sie achten, wenn Sie Daten außerhalb der EU verarbeiten lassen möchten?
     - Auftragsdatenverarbeitung kann auch außerhalb der EU stattfinden, jedoch immer gemäß EU-DSGVO auf Grundlage eines Angemessenheitsbeschlusses der EU-Kommission 
 
-
 5. Erläutern Sie die Begriffe “Privacy by Design” und “Security by Design” und stellen Sie die Unterschiede dar
-    - Privacy by Design: IT-System muss so beschaffen sein, dass keine zusätzliche Daten erhoben, gespeichert, verarbeitet werden
-    - Security by Design: Der Begriff bedeutet, dass Sicherheitsanforderungen an Soft- und Hardware schon während der Entwicklungsphase eines Produktes berücksichtigt werden, um spätere Sicherheitslücken zu verhindern. Denn mit dem laufenden  Projektfortschritt steigen auch die Kosten für die Beseitigung von Sicherheitslücken. => Von Beginn an (Konzeptphase) schon Sicherheitsmechanismen bzw. Sicherheitstechniken nutzen. Zum Beispiel:
+    - **Privacy by Design**: IT-System muss so beschaffen sein, dass keine zusätzliche Daten erhoben, gespeichert, verarbeitet werden.
+    - **Security by Design**: Der Begriff bedeutet, dass Sicherheitsanforderungen an Soft- und Hardware schon während der Entwicklungsphase eines Produktes berücksichtigt werden, um spätere Sicherheitslücken zu verhindern. Denn mit dem laufenden  Projektfortschritt steigen auch die Kosten für die Beseitigung von Sicherheitslücken. => Von Beginn an (Konzeptphase) schon Sicherheitsmechanismen bzw. Sicherheitstechniken nutzen. <br/>Zum Beispiel:
     verschlüsselte Datenübertragung, etc.
 	
 6. Was ist das Standard Datenschutzmodell und wobei hilft es?
@@ -48,13 +47,35 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Transformationshilfe zwischen Recht und Technik.
 
 7. Was sind die Aufgaben und Pflichten eines Datenschutzbeauftragten?
-    - **todo**
+    - Die DSGVO legt in einem Katalog (Art. 39 DSGVO) die Aufgaben und Pflichten des Datenschutzbeauftragten fest. <br/>Dazu gehören:
+        - Unterrichtung und Beratung der Verantwortlichen, Auftragsverarbeiter und Beschäftigten
+        - Überwachung der Einhaltung der DSGVO, des BDSG und anderer Datenschutzvorschriften
+        - Sensibilisierung und Schulung der Mitarbeiter
+        - Beratung und Überwachung der Datenschutz-Folgeabschätzung
+        - Zusammenarbeit mit der Aufsichtsbehörde
+        - Ansprechpartner für Betroffene
+        - Für seine Aufgaben zur Vertraulichkeit verpflichtet
 
 8. Was müssen Sie im Falle einer Datenschutzpanne tun?
-    - **todo**
+    - Wenn Risiko für die Betroffene besteht, muss binnen 72 Stunden an die Aufsichtbehörde gemeldet werden.
+    - Die Meldung beinhaltet eine Beschreibung, was passiert ist, welche Folgen hat die Panne und was man dagegen unternommen hat
+    - Bei hohem Risiko für die betroffenen Personen:
+        - Unverzügliche Benachrichtigung
+        - Klar und verständlich
+    - Ausnahmen:
+        - Man hat das Risiko durch geeignete Maßnahmen reduziert
+        - Die Daten waren verschlüsselt (oder ähnlich unzugänglich)
+        - Falls individuelle Benachrichtigung nicht praktikabel ist => öffentliche Bekanntmachung!
 
 9. Woran erkennen Sie, dass ein Unternehmen Datenschutzkonform arbeitet?
-    - **todo**
+    - Garantien bzgl. Einhaltung der gesetzlichen Vorgaben
+        - Am besten „genehmigte Verhaltensregeln“ (falls sie existieren)
+    - Garantien bzgl. IT-Sicherheit
+        - Am besten Zertifizierung nach ISO 27001 (reicht aber nicht aus)
+    - Zertifizierung bzgl. Datenschutz
+        - Trusted Cloud-Datenschutzprofil (tcdp.de, Stiftung Datenschutz)
+        - Trusted Cloud Label (trusted-cloud.de, BMWi)
+    - C5-Testat des BSI
 
 10. Unter welchen Bedingungen müssen betroffene Personen bei einer Datenschutzpanne nicht benachrichtigt werden?
     - Wenn kein hohes Risiko für die betroffenen Personen besteht.

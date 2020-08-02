@@ -52,9 +52,9 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 8. Was müssen Sie im Falle einer Datenschutzpanne tun?
     - **todo**
+
 9. Woran erkennen Sie, dass ein Unternehmen Datenschutzkonform arbeitet?
     - **todo**
-
 
 10. Unter welchen Bedingungen müssen betroffene Personen bei einer Datenschutzpanne nicht benachrichtigt werden?
     - Wenn kein hohes Risiko für die betroffenen Personen besteht.
@@ -193,12 +193,10 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Das bedeutet, dass man darauf vertraut, dass bekannte Sicherheitslücken geheim bleiben und deshalb keine Maßnahmen ergriffen werden.
     - Sobald die Sicherheitslücke nicht mehr geheim ist, ist System offen.
 
-
 7. Erläutern Sie den Begriff von “Skalierbarkeit von Angriffen” im Kontext von IT-Sicherheit.
     - Angriff skalieren mit einsatz von IT (Papierakten vs. digtitalen Akten)
     - Angriffe skalieren mit dem Grad der Vernetzug (Arzt mit einer Niederlassung vs. Praxenverbund)
     - Sicherheitslücke kann unter Umständen zum Verlust enorm vieler Daten führen. 
-
 
 8. Was ist Vertraulichkeit und wie wird diese erreicht?
     - Schutz vor unbefugter Offenbarung von Daten. (Unbefugte dürfen als „vertraulich“ eingestufte Informationen nicht lesen (können!))
@@ -223,7 +221,6 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
         - Bedrohung- und Schwachstellenanalyse
         - Risikoanalyse
         - Rollen Verantwortlichkeiten
-
 
 11. Nennen Sie die 6 allgemeinen Sicherheitsziele in der Informationssicherheit und ordnen Sie diese nach Wichtigkeit/Priorität
     - Vertraulichkeit
@@ -629,7 +626,7 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - (Seite 67)
 
 12. Wofür steht DMS und was versteht man darunter? 
-    - **todo**(S. 47)
+    - **todo** (Seite 47)
 
 13. Was ist eine Hash Funktion?
     - Einwegfunktionen: Man kann den Hashwert eines Dokumentes effizient berechnen Es ist nicht möglich, ausgehend vom Hashwert das Dokument zu rekonstruieren Hashwert ist „digitaler Fingerabdruck“ eines Dokumentes Wird das Dokument verändert, ändert sich der Hashwert 

@@ -233,7 +233,6 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Einmal-beschreibbare Medien (WORM, CD-R)
     - Physikalische Sicherheit
 
-
 10. Was ist der Unterschied zwischen Sicherheitsstrategie und Sicherheitskonzept im Kontext von IT-Sicherheit?
     - Sicherheitsstrategie: Globale Sicherheitsstrategie (high-level dokument) für das Unternehmen, allgemein, blickt in die Zukunft.
     - Sicherheitskonzept: Konkrete Maßnahmen für die jeweiligen Anwendungen
@@ -302,7 +301,6 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - Kurzform:
         1. Image von einem Unternehmen
         2. Entwicklungsdaten
-
 
 19. Nennen Sie bitte ein Beispiel für Zugriffskontrolle im Kontext der IT-Sicherheit?
     - Festlegen, wer welche Daten lesen, schreiben, verändern, löschen darf.

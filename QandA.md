@@ -390,7 +390,7 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
 
 14. Erläutern Sie grob das Konzept der biometrischen Authentifizierung. Wie kann in diesem Zusammenhang die false accept rate und die false reject rate beeinflusst werden?
     -  Nutzung von individuellen körperlichen Merkmalen zur Authentifizierung.
-    -  Mit Nutzung von Wahrscheinlichkeitberechnung hinsichtlich der Übereinstimmung. </br/>Damit Balance zwischen False Accept Rate und False Reject Rate zu finden.
+    -  Mit Nutzung von Wahrscheinlichkeitberechnung hinsichtlich der Übereinstimmung.<br/>Damit Balance zwischen False Accept Rate und False Reject Rate zu finden.
 
 15. Erläutern Sie den Vorgang der Authentifizierung mittels einer Chipkarte und warum  gilt diese als besonders sicher?
     -  Kryptographische Authentifizierung mit technischer Signatur
@@ -607,36 +607,51 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - Die beste Methode, eine Kollision zu finden, ist alle mögliche Dokumente auszuprobieren
     - (brute force)
     - (Seite 9)
-2. Erklären Sie die Funktionsweise von MAC (Message Authentication Codes)
-    - **todo** (S. 16ff)
 
-3. Welche Sicherheitsziele hat eine Hashfunktion?
+5. Erklären Sie die Funktionsweise von MAC (Message Authentication Codes)
+    - Ein MAC wird eingesetzt um die Manipulation einer Nachricht sicher zu erkennen und um die Authentizität der Nachricht sicherzustellen
+    - Es wird mit einer "keyed one-way function": Eine Nachricht wird mit dem Schlüssel verknüpft (konkateniert), davon wird der Hashwert gebildet
+
+6. Welche Sicherheitsziele hat eine Hashfunktion?
     - Authentizität
     - Integrität
     - Privatheit
 
-4. Warum kann man ein MAC / HMAC nicht für den Zweck der Verbindlichkeit verwenden?
-    - **todo**
+7. Warum kann man ein MAC / HMAC nicht für den Zweck der Verbindlichkeit verwenden?
+    - Weil jeder, der den Schlüssel kennt, jeder Kommunikationspartner, kann der MAC / HMAC berechnen. Die Authentizität kann also nicht gegenüber einem Dritten bewiesen werden.
 
-5. Welche Sicherheitsziele kann man mit einem MAC / HMAC erreichen?
-    - **todo**
+8. Welche Sicherheitsziele kann man mit einem MAC / HMAC erreichen?
+    - Authentizität
+    - Integrität
 
-6. Was ist die Idee von Signaturen?
-    - **todo** (S. 24)
+9. Was ist die Idee von Signaturen?
+    - "Wenn sich das Dokument mit dem öffentlichen Schlüssel des Signierers entschlüsseln lässt, kann es nur mit dem zugehörigen privaten Schlüssel verschlüsselt worden sein"
+    - (S. 24)
 
-7. Welche Zwecke haben technische Signaturen?
-    - **todo**
+10. Welche Zwecke haben technische Signaturen?
+    - Starke Authentifizierung von Personen, IT-Systemen gegenüber anderen IT-Systemen
+    - Authentifizierung von Nachrichten, E-Mails, DNS-Records (= Nachweis des Ursprungs und der Echtheit)
+    - Authentisierung von Software (Code-Signing)
 
-8. Wann ist eine Signatur gültig?
-    - **todo** (S. 39)
+11. Wann ist eine Signatur gültig?
+    - Wenn sie mathematisch korrekt ist, und wenn zum Zeitpunkt der Signaturerstellung das Signaturzertifikat gültig war
+    - (S. 39)
 
-9. Welche Eigenschaften hat eine Qualifizierte elektronische Signatur?
-    - **todo**
+12. Welche Eigenschaften hat eine Qualifizierte elektronische Signatur?
+    - Eine qualifizierte elektronische Signatur hat die gleiche Rechtswirkung wie eine handschriftliche Unterschrift
+    - Der Signierer kann die Signatur nicht abstreiten. Nur der Signierer kann eine gültige Signatur unter seinem Namen erstellen
+    - Der Inhalt des signierten Dokuments kann nicht verändert werden, seine Echtheit ist beweisbar
+    - Der Signaturprozess stellt sicher, dass der Signierer gewarnt wird, d.h. ihm ist bewusst, dass er gerade eine Signatur erstellt
+    - Der Signierer kann eindeutig identifiziert werden
+    - Durch die Signatur wird eine Urkunde geschaffen. Der Inhalt und der Urheber sind beweisbar
 
-10. Wie kann man den Zeitpunkt der Signaturerstellung nachweisen? Über ein qualifizierten Zeitstempel (Dienst)
-    - **todo**
+13. Wie kann man den Zeitpunkt der Signaturerstellung nachweisen? 
+    - Sicher: Über ein qualifizierten Zeitstempel (Dienst)
+    - Sicher: wenn der Zeitpunkt der Signatur von einem Vertrauensdienst bestätigt wird
+    - Unsicher: sonstige Nachweise, wie Eintrag in Signatur (Systemuhr des Rechners)
+    <br/>Im alten Signaturgesetz war das OK, unter eIDAS wird noch diskutiert
 
-11. Nennen Sie 3 Anforderungen für elektronisch signierte Dokumente.
+14. Nennen Sie 3 Anforderungen für elektronisch signierte Dokumente.
     - Langlebiges, über die Aufbewahrungsdauer lesbares Format
     - Gültige elektronische Signatur
     - Prüfinformationen für die elektronische Signatur
@@ -644,13 +659,15 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - Sicherer Archivierungsprozess
     - (Seite 67)
 
-12. Wofür steht DMS und was versteht man darunter? 
-    - **todo** (Seite 47)
+15. Wofür steht DMS und was versteht man darunter? 
+    - DMS steht für Dokumentenmanagementsystem
+    - Eine elektronische Vewaltung von Dokumenten (Papier, Multimedia und elektronische Dokumente)
+    - (Seite 47)
 
-13. Was ist eine Hash Funktion?
+16. Was ist eine Hash Funktion?
     - Einwegfunktionen: Man kann den Hashwert eines Dokumentes effizient berechnen Es ist nicht möglich, ausgehend vom Hashwert das Dokument zu rekonstruieren Hashwert ist „digitaler Fingerabdruck“ eines Dokumentes Wird das Dokument verändert, ändert sich der Hashwert 
 
-14. Nennen Sie Eigenschaften von sicheren („starken“) kryptographischen Hashfunktionen
+17. Nennen Sie Eigenschaften von sicheren („starken“) kryptographischen Hashfunktionen
     - Einweg-Eigenschaft 
     - Hashwert kann effizient berechnet werden (practicality) 
     - Für einen gegebenen Hashwert h ist es praktisch unmöglich ein Dokument m zu finden, welches den Hashwert h ergibt (preimage resistance) 
@@ -659,9 +676,9 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - Die beste Methode, eine Kollision zu finden, ist alle mögliche Dokumente auszuprobieren (brute force) 
     - Seite 8-9 
 
-15. Hat eine qualifizierte elektronische Signatur die gleiche Rechtswirkung wie eine handschriftliche Unterschrift?
+18. Hat eine qualifizierte elektronische Signatur die gleiche Rechtswirkung wie eine handschriftliche Unterschrift?
     - Ja - nach Art. 25 Abs. 2 eIDAS-Verordnung 
 
-16. Nennen Sie drei wesentliche Argumente, welche für ein Dokumentenmanagemen tsystem - DMS sprechen?
+19. Nennen Sie drei wesentliche Argumente, welche für ein Dokumentenmanagemen tsystem - DMS sprechen?
     - Wirtschaftlichkeit Steigerung der Effizienz Kostensenkung 
     - (Seite 49) 

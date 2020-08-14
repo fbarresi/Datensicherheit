@@ -4,7 +4,6 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 ## Datenschutz
 
 1. Benennen Sie 5 der 7 Gewährleistungsziele des Datenschutzes und beschreiben Sie diese kurz.
-
     - **Datenminimierung**: Der Gesetzgeber fordert, dass personenbezogene Daten dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein müssen (Art. 5 Abs. 1 lit. c DS-GVO).
     - **Verfügbarkeit**: Er gewährleistet die Verfügbarkeit der Daten zu dem jeweiligen Zweck, solange dieser noch besteht.
     - **Integrität**: Grundsatz für die Verarbeitung von personenbezogenen Daten. So sind u. a. unbefugte Veränderungen und Entfernungen auszuschließen.
@@ -159,12 +158,12 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Rechenschaftspflicht
     - Betroffenenrechte
 
-27. Wer wacht über die Einhaltung der Datenschutzvorschriften? Antwort:
+27. Wer wacht über die Einhaltung der Datenschutzvorschriften?
     - Betroffene Personen sollten selbst über die Einhaltung der Datenschutzvorschriften wachen.
     - In Unternehmen: Datenschutzbeauftragter
     - Staat: Aufsichtsbehörde: Bundesdatenschutzbeauftragte/r, Landesdatenschutzbeauftragte, Gerichte
 
-28. Was ist der Unterschied zwischen Pseudonymisierung und Anonymisierung? Ausführlich:
+28. Was ist der Unterschied zwischen Pseudonymisierung und Anonymisierung?
     - Unter ​Pseudonymisierung​ ist die Verarbeitung von Daten in der Weise zu verstehen, dass sie in der Folge nur dann noch einer spezifischen Person zugeordnet werden können, wenn man hierzu auf zusätzliche und gegebenenfalls an anderer Stelle vorhandene Informationen zurückgreifen kann, die es erlauben, einen konkreten Personenbezug (wieder) herzustellen.
     - Anonymisierung​. Das Verändern personenbezogener Daten derart, dass die Einzelangaben über persönliche oder sachliche Verhältnisse nicht mehr oder nur mit einem unverhältnismäßig großen Aufwand an Zeit, Kosten und Arbeitskraft einer bestimmten oder bestimmbaren natürlichen Person zugeordnet werden können.“
     - Kurz und knapp: Pseudonymisierung​ kann wieder aufgehoben werden (z.B. durch Mapping Liste) Anonymisierung ​keine Reidentifikation möglich
@@ -176,7 +175,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Organisatorische Maßnahmen
         - Prozesse des Risikomanagements, IT-Sicherheitsmanagement
 
-30. Oft werden personenbezogenen Daten für automatisierte Entscheidungen verwendet.Unter welche Bedingungen hat man das Rechte auf eine Menschliche Entscheidung?Beschreiben Sie eine solche Situation?
+30. Oft werden personenbezogenen Daten für automatisierte Entscheidungen verwendet. Unter welche Bedingungen hat man das Rechte auf eine Menschliche Entscheidung? Beschreiben Sie eine solche Situation.
     - Bei rechtlicher Wirkung der Entscheidung oder erheblicher Beeinträchtigung der betroffenen Person
     - Entscheidungen, die auf besondere Kategorien personenbezogener Daten beruhen
     - Beispiel: Automatisierte Auswertung der Kreditwürdigkeit (Schufa) <br/> Ein Algorithmus kategorisiert eine kreditwürdige Person fälschlicherweise als nicht kreditwürdig. Somit kann man von seinem Recht auf eine menschliche Entscheidung gebrauch machen.

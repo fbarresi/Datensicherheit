@@ -3,7 +3,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 ## Datenschutz
 
-1. Benennen Sie 5 der 7 Gewährleistungsziele des Datenschutzes und beschreiben Sie diese kurz.
+1. Benennen Sie 5 der 7 **Gewährleistungsziele des Datenschutzes** und beschreiben Sie diese kurz.
     - **Datenminimierung**: Der Gesetzgeber fordert, dass personenbezogene Daten dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein müssen (Art. 5 Abs. 1 lit. c DS-GVO).
     - **Verfügbarkeit**: Er gewährleistet die Verfügbarkeit der Daten zu dem jeweiligen Zweck, solange dieser noch besteht.
     - **Integrität**: Grundsatz für die Verarbeitung von personenbezogenen Daten. So sind u. a. unbefugte Veränderungen und Entfernungen auszuschließen.
@@ -12,15 +12,26 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - **Nichtverkettnug**: bezeichnet die Anforderung, dass personenbezogene Daten nicht zusammengeführt, also verkettet, werden
     - **Intervenierbarkeit**: bezeichnet die Anforderung, dass den betroffenen Personen die ihnen zustehenden Rechte auf Benachrichtigung, Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch und Erwirkung des Eingriffs in automatisierte  einzelentscheidungen bei Bestehen der gesetzlichen Voraussetzungen unverzüglich und wirksam gewährt werden und die verarbeitende Stelle verpflichtet ist, die entsprechenden Maßnahmen umzusetzen. Soweit der Verantwortliche über Informationen verfügt, die es ihm erlauben, die betroffenen Personen zu identifizieren, muss er auch Maßnahmen zur Identifizierung und Authentifizierung der betroffenen Personen, die ihre Rechte wahrnehmen möchten, treffen.
 
-2. Bennen Sie 5 besondere Kategorien personenbezogener Daten und was gilt für diese grundsätzlich?
+2. Benennen Sie **5 besondere Kategorien personenbezogener Daten** und was gilt für diese grundsätzlich?
     - Rassische / ethnische Herkunft
     - Politische Meinungen
     - Religion, Weltanschauung
     - Zugehörigkeit zu Gewerkschaften
     - Gesundheitsdaten, genetische Daten
-    - **Verarbeitung grundsätzlich verboten, nur bestimmte Ausnahmen.**
+    - **Verarbeitung grundsätzlich verboten, nur bestimmte Ausnahmen:**
+        - lebenswichtige Iteressen der Betroffenen
+        - erhebliche öffentliche Interesse
+        - Rechtansprüche
+        - bür die Kategorien selbst (z.B. Kirche, Gewerkschaft)
+        - bei öffentliche Daten, wenn die Person es zulässt
+        - für medizinische Zwecken, wenn unter Geheimnis
+        - öffentliche Gesundheit und Sozialrecht
+        - Archiv, Forschung, Statistik
+        <br/>und
+        - Einwilligung kann durch Gesetz eingeschränkt werden
+        - Verarbeitung nur unter Sozial- und Arbeitsrecht, bei ges. Grundlage
 
-3. Welche Rechte im Kontext des Datenschutzes haben Sie als betroffene Person, deren Daten verarbeitet werden?
+3. Welche **Rechte** im Kontext des Datenschutzes haben Sie als **betroffene Person**, deren Daten verarbeitet werden?
     - Recht auf Information zu Datenschutzrechten
     - Recht auf Auskunft zu personenbezogenen Daten
     - Recht auf Berichtigung
@@ -95,23 +106,11 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Unternehmen, Verantwortlicher: Datenschutzbeauftragter / Geschäftsführung
     - Staat: Aufsichtsbehörde, Gerichte ...
 
-14. Nennen Sie fünf Betroffenenrechte (im Sinne des Datenschutzes) und nennen Sie ein Beispiel zu einem beliebigen Betroffenenrecht.
-    - Recht auf Datenberichtigung => Unternehmen anschreiben und Falschinformationen korrigieren lassen
-    - Recht auf Auskunft zu personenbezogenen Daten
-    - Recht auf Löschung/ Einschränkung der Verarbeitung
-    - Recht auf Datenübertragbarkeit
-    - Recht auf "menschliche" Entscheidung
-
 15. Was versteht man unter Privacy by Design und Privacy by Default?
-    - Privacy by design: IT-Systeme werde schon konzepiert ohne die Fähigkeit zusätliche Daten abzuspeichern
+    - Privacy by design: IT-Systeme werde schon konzipiert ohne die Fähigkeit zusätzliche Daten abzuspeichern
     - Privacy by default: IT-Systeme / Software sind standardmäßig mit aktive Privacy Einstellung.
 
-16. Nennen Sie 3 Betroffenenrechte im Bezug auf den Datenschutz.
-    - Recht auf Löschung
-    - Recht auf Berichtigung
-    - Recht auf Auskunft
-
-17. Unter welche umstände ist es erforderlich einen Datenschutzbeauftragter und muß er Angestellter des Unternehmens sein?
+17. Unter welche umstände ist es **erforderlich einen Datenschutzbeauftragter** und muß er Angestellter des Unternehmens sein?
     - für Behörden, öffentliche Stellen
     - bei umfangreicher, regelmäßiger und systematischer Überwachung von Personen
     - bei umfangreicher Verarbeitung besonderer Kategorien pers. Daten
@@ -119,15 +118,15 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Nein,ein Datenschutzbeauftragter kann auch Extern sein
 
 18. Ab wann muss ein Verzeichnis über Verarbeitungstätigkeiten geführt werden?
-    - Bei Firmen mit mehr als 250 Mitarbeitern ODER
-    - Wenn die Verarbeitung ein Risiko für Rechte und Freiheiten der betroffenen Personen birgt ODER
-    - Wenn besondere Kategorien personenbezogener Daten verarbeitet werden ODER
+    - Bei Firmen mit mehr als 250 Mitarbeitern <br/>ODER
+    - Wenn die Verarbeitung ein Risiko für Rechte und Freiheiten der betroffenen Personen birgt <br/>ODER
+    - Wenn besondere Kategorien personenbezogener Daten verarbeitet werden <br/>ODER
     - Verarbeitung nicht nur gelegentlich
 
 19. Was versteht man unter Anonymisierung und Pseudonymisierung?
-    - Anonymisiert sind Daten wo es unmöglich ist einen Personenbezug wiederherzustellen. Pseudonimiesierte Daten haben auch kein direkte Personenbezug mehr, aber es ist dagegen möglich einen Bezug auf andere Datensätze.
+    - Anonymisiert sind Daten wo es unmöglich ist einen Personenbezug wiederherzustellen. Pseudonymisierte Daten haben auch kein direkte Personenbezug mehr, aber es ist dagegen möglich einen Bezug auf andere Datensätze.
 
-20. Warum wird Datenschutz auf rechtlicher Ebene geregelt?
+20. Warum wird Datenschutz auf **rechtlicher Ebene** geregelt?
     - Ungleiche Beziehung => enormes Ungleichgewicht Einzelne Person <=> übermächtige Institution ( Staat, Unternehmen)
 
 21. Warum ist Zweckbindung wichtig? Was ist das Gegenteil?
@@ -139,16 +138,24 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 23. Was versteht man unter Datenminimierung?
     - Beschränkung der Erhebung, Speicherung, Verarbeitung von Daten auf das notwendige Maß für die Zwecke der Verarbeitung
 
-24. Was sind personenbezogene Daten?
+24. Was sind **personenbezogene Daten**?
     - Alle Daten, die zu einer Person verknüpft werden können
     - Sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person (Betroffener)
+    - Personenbezogene Daten umfassen auch personenbeziehbare Daten
 
-25. Laut DSGVO ist die Verarbeitung von Personenbezogene Daten grundsätlich verboten. Nennen Sie bitte 3 Ausnahmen davon.
+25. Laut DSGVO ist die **Verarbeitung von Personenbezogene Daten** grundsätzlich verboten. Nennen Sie bitte 3 Ausnahmen davon.
     - Erlaubnis auf Grundlage eines Gesetzes
     - Erlaubnis nach Einwilligung der betroffenen Person
     - Verarbeitung zur Erfüllung eines Vertrags
+    - Zur Erfüllung einer rechtlichen Verpflichtung in allgemeinen Interesse, unter Wahrung der Verhältnismäßigkeit
+    - bei öffentliche Aufgaben
+    - Lebenswichtige Interessen der Betroffenen
+    - Zur Wahrung berechtigter Interessen des Verantwortlicher (oder Dritten) nach Abwägung (aber nicht für Behörde)
+    - Bei Daten ohne mögliche Personenbezug
+    - Öffentliche Daten
+    - Eigene berechtigte Interesse (z.B. vor Gericht)
 
-26. Nennen Sie 3 Grundsätze des Datenschutzes? (Der Vollständigkeit Halber alle aus der Vorlesung aufgelistet)
+26. Nennen Sie 3 Grundsätze des Datenschutzes?
     - Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz
     - Zweckbindung
     - Datenminimierung

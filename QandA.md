@@ -447,8 +447,10 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Vertrauenswürdige Instanz, die Zertifikate ausstellt und verwaltet
     - Bestätigt, dass ein öffentlicher Schlüssel einer bestimmten Person gehört
 
-10. Nennen Sie drei Vorteile eines **ID-Providers**.
-    - Ein Spezialist kümmert sich um den Identifizierungsprozess. (Dadurch Kostengünstig und sicher)
+10. Nennen Sie die Vorteile eines **ID-Providers**.
+    - Spezialisten kümmern sich um den Identifizierungsprozess. (Dadurch Kostengünstig und sicher)
+    - Kann für verschiedene Dienste eingesetzt werden
+
 
 11. Was versteht man unter dem **TOFU-Prinzip**?
     - TOFU steht für Trust On First Use und bedeutet, dass der User nach einmaliger User Interaktion dauerhaft autorisiert bleibt (vgl. Passierschein).
@@ -549,57 +551,59 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 ## Signaturverfahren
 
-1. Nennen und Erklären Sie den wesentlichen Unterschied von Method Authentication Code  (MAC) zu elektronischen Signaturen.
-    - Elektronischen Signature garantiert neben Integrität und Authentizität zusätzlich Verbindlichkeit. D.h. Die Authentizität kann auch gegenüber dritten bewiesen werden.
+1. Nennen und Erklären Sie den wesentlichen Unterschied von Message Authentication Code  (**MAC**) zu **elektronischen Signaturen**.
+    - MAC garantiert Integrität und Authentizität 
+    - Elektronischen Signaturen garantieren neben Integrität und Authentizität zusätzlich Verbindlichkeit. D.h. Die Authentizität kann auch gegenüber dritten bewiesen werden.
 
-2. Beschreiben Sie den Prozess einer digitalen Signatur. Und die Schritte die nötig sind bei Absender und Empfänger.
+2. Beschreiben Sie den **Prozess einer digitalen Signatur**. Und die Schritte die nötig sind bei Absender und Empfänger.
     - Absender bildet Hashwert aus Dokument
     - Verschlüsselt den Hashwert mittels RSA und seinem privaten Schlüssel
     - Schickt Empfänger Public Key und Dokument mit verschlüsseltem Hashwert
-    - Empfänger entschlüsslt Hashwert mittels Public Key und bildet selbst den Hashwert des Dokuments
-    - Stimmen beide Hashwerte überein liegt Original vor
+    - Empfänger entschlüsselt Hashwert mittels Public Key und bildet selbst den Hashwert des Dokuments
+    - Stimmen beide Hashwerte überein liegt ein Original vor
 
-3. Beschreiben Sie den Zweck einer Übersignatur im Zusammenhang mit elektronischen  Signaturen
-    - Mit stärker werdenen Rechnerleistung könne ältere Algorithmen geknackt werden. Z.B. SHA-1. Zum Zeitpunkt der Signatur sollte stärkstes Signaturverfahren verwendet werden um den Alterungsprozess hinauszuzögern. Dies wird mit einer Übersignatur erreicht, solange der ursprüngliche Algorithmus noch nicht geknackt wurde.
+3. Beschreiben Sie den Zweck einer **Übersignatur** im Zusammenhang mit elektronischen  Signaturen
+    - Mit stärker werdenen Rechnerleistung könne ältere Algorithmen geknackt werden. Z.B. SHA-1. Zum Zeitpunkt der Signatur sollte stärkstes Signaturverfahren verwendet werden um den Alterungsprozess hinauszuzögern. 
+    - Dies wird mit einer Übersignatur erreicht, solange der ursprüngliche Algorithmus noch nicht geknackt wurde.
 
-4. Was ist eine Hashfunktion? Was bezeichnet eine sichere (bzw. “starke”) kryptografische Hashfunktion?
-    - Für einen gegebenen Hashwert h ist es praktisch unmöglich ein Dokument m zu finden, welches den Hashwert h ergibt (preimage resistance)
-    - Für ein gegebenes Dokument m ist es praktisch unmöglich ein Dokument m‘ zu finden, sodass beide Dokumente den gleichen Hashwert h ergeben (second preimage resistance)
-    - Es ist praktisch nicht möglich, zwei unterschiedliche Dokumente m und m‘ zu finden, die den gleichen Hashwert h haben (collision resistance)
-    - Die beste Methode, eine Kollision zu finden, ist alle mögliche Dokumente auszuprobieren
-    - (brute force)
+4. Was ist eine Hashfunktion? Was bezeichnet eine **sichere (bzw. “starke”) kryptografische Hashfunktion**?
+    - Eine Hashfunktion eine Einwegfunktion. Hashwert gilt als digitaler Fingerabdruck eines Dokumentes.
+    - Für einen gegebenen Hashwert h ist es praktisch unmöglich ein Dokument m zu finden, welches den Hashwert h ergibt (**preimage resistance**)
+    - Für ein gegebenes Dokument m ist es praktisch unmöglich ein Dokument m‘ zu finden, sodass beide Dokumente den gleichen Hashwert h ergeben (**second preimage resistance**)
+    - Es ist praktisch nicht möglich, zwei unterschiedliche Dokumente m und m‘ zu finden, die den gleichen Hashwert h haben (**collision resistance**)
+    - Die beste Methode, eine Kollision zu finden, ist alle mögliche Dokumente auszuprobieren (brute force)
     - (Seite 9)
 
-5. Erklären Sie die Funktionsweise von MAC (Message Authentication Codes)
+5. Erklären Sie die Funktionsweise von **MAC** (Message Authentication Codes)
     - Ein MAC wird eingesetzt um die Manipulation einer Nachricht sicher zu erkennen und um die Authentizität der Nachricht sicherzustellen
     - Es wird mit einer "keyed one-way function": Eine Nachricht wird mit dem Schlüssel verknüpft (konkateniert), davon wird der Hashwert gebildet
 
-6. Welche Sicherheitsziele hat eine Hashfunktion?
+6. Welche Sicherheitsziele hat eine **Hashfunktion**?
     - Authentizität
     - Integrität
     - Privatheit
 
-7. Warum kann man ein MAC / HMAC nicht für den Zweck der Verbindlichkeit verwenden?
+7. Warum kann man ein **MAC / HMAC** nicht für den Zweck der Verbindlichkeit verwenden?
     - Weil jeder, der den Schlüssel kennt, jeder Kommunikationspartner, kann der MAC / HMAC berechnen. Die Authentizität kann also nicht gegenüber einem Dritten bewiesen werden.
 
-8. Welche Sicherheitsziele kann man mit einem MAC / HMAC erreichen?
+8. Welche Sicherheitsziele kann man mit einem **MAC / HMAC** erreichen?
     - Authentizität
     - Integrität
 
-9. Was ist die Idee von Signaturen?
+9. Was ist die **Idee von Signaturen**?
     - "Wenn sich das Dokument mit dem öffentlichen Schlüssel des Signierers entschlüsseln lässt, kann es nur mit dem zugehörigen privaten Schlüssel verschlüsselt worden sein"
     - (S. 24)
 
-10. Welche Zwecke haben technische Signaturen?
+10. Welche Zwecke haben **technische Signaturen**?
     - Starke Authentifizierung von Personen, IT-Systemen gegenüber anderen IT-Systemen
     - Authentifizierung von Nachrichten, E-Mails, DNS-Records (= Nachweis des Ursprungs und der Echtheit)
     - Authentisierung von Software (Code-Signing)
 
-11. Wann ist eine Signatur gültig?
+11. Wann ist eine **Signatur gültig**?
     - Wenn sie mathematisch korrekt ist, und wenn zum Zeitpunkt der Signaturerstellung das Signaturzertifikat gültig war
     - (S. 39)
 
-12. Welche Eigenschaften hat eine Qualifizierte elektronische Signatur?
+12. Welche Eigenschaften hat eine **Qualifizierte elektronische Signatur**?
     - Eine qualifizierte elektronische Signatur hat die gleiche Rechtswirkung wie eine handschriftliche Unterschrift
     - Der Signierer kann die Signatur nicht abstreiten. Nur der Signierer kann eine gültige Signatur unter seinem Namen erstellen
     - Der Inhalt des signierten Dokuments kann nicht verändert werden, seine Echtheit ist beweisbar
@@ -607,13 +611,13 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Der Signierer kann eindeutig identifiziert werden
     - Durch die Signatur wird eine Urkunde geschaffen. Der Inhalt und der Urheber sind beweisbar
 
-13. Wie kann man den Zeitpunkt der Signaturerstellung nachweisen? 
+13. Wie kann man den **Zeitpunkt der Signaturerstellung** nachweisen? 
     - Sicher: Über ein qualifizierten Zeitstempel (Dienst)
     - Sicher: wenn der Zeitpunkt der Signatur von einem Vertrauensdienst bestätigt wird
     - Unsicher: sonstige Nachweise, wie Eintrag in Signatur (Systemuhr des Rechners)
     <br/>Im alten Signaturgesetz war das OK, unter eIDAS wird noch diskutiert
 
-14. Nennen Sie 3 Anforderungen für elektronisch signierte Dokumente.
+14. Nennen Sie 3 **Anforderungen für elektronisch signierte Dokumente**.
     - Langlebiges, über die Aufbewahrungsdauer lesbares Format
     - Gültige elektronische Signatur
     - Prüfinformationen für die elektronische Signatur
@@ -621,26 +625,16 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Sicherer Archivierungsprozess
     - (Seite 67)
 
-15. Wofür steht DMS und was versteht man darunter? 
+15. Wofür steht **DMS** und was versteht man darunter? 
     - DMS steht für Dokumentenmanagementsystem
     - Eine elektronische Vewaltung von Dokumenten (Papier, Multimedia und elektronische Dokumente)
     - (Seite 47)
-
-16. Was ist eine Hash Funktion?
-    - Einwegfunktionen: Man kann den Hashwert eines Dokumentes effizient berechnen Es ist nicht möglich, ausgehend vom Hashwert das Dokument zu rekonstruieren Hashwert ist „digitaler Fingerabdruck“ eines Dokumentes Wird das Dokument verändert, ändert sich der Hashwert 
-
-17. Nennen Sie Eigenschaften von sicheren („starken“) kryptographischen Hashfunktionen
-    - Einweg-Eigenschaft 
-    - Hashwert kann effizient berechnet werden (practicality) 
-    - Für einen gegebenen Hashwert h ist es praktisch unmöglich ein Dokument m zu finden, welches den Hashwert h ergibt (preimage resistance) 
-    - Für ein gegebenes Dokument m ist es praktisch unmöglich ein Dokument m‘ zu finden, so dass beide Dokumente den gleichen Hashwert h ergeben (second preimage resistance) 
-    - Es ist praktisch nicht möglich, zwei unterschiedliche Dokumente m und m‘ zu finden, die den gleichen Hashwert h haben (collision resistance) 
-    - Die beste Methode, eine Kollision zu finden, ist alle mögliche Dokumente auszuprobieren (brute force) 
-    - Seite 8-9 
 
 18. Hat eine qualifizierte elektronische Signatur die gleiche Rechtswirkung wie eine handschriftliche Unterschrift?
     - Ja - nach Art. 25 Abs. 2 eIDAS-Verordnung 
 
 19. Nennen Sie drei wesentliche Argumente, welche für ein Dokumentenmanagemen tsystem - DMS sprechen?
-    - Wirtschaftlichkeit Steigerung der Effizienz Kostensenkung 
+    - Wirtschaftlichkeit 
+    - Steigerung der Effizienz 
+    - Kostensenkung 
     - (Seite 49) 

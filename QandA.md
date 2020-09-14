@@ -414,50 +414,46 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
         - Autorisierung (Attribute, Rollen, Rechte, Privilegien)
         - Verwaltung der elektronischen Identitäten (Lifecycle)
 
-2. Was versteht man unter salting und hashing und wieso ist es für das Speichern von  Passwörtern wichtig?
+2. Was versteht man unter **salting und hashing** und wieso ist es für das Speichern von  Passwörtern wichtig?
     - Salzen: Zusätzlicher String wird dem Passwort hinzugefügt.
     - Hashen: Ist eine Abbildung die eine große Eingabemenge auf eine kleinere Ausgabemenge abbildet.
     - Hashfunktion ist injektiv, es ist unmöglich vom Hash auf das Passwort zu schließen. Salzen wichtig gegen Rainbowtable.
 
-3. Erläutern Sie die Unterschiede zwischen PGP und hierarchischen Zertifikaten.
-    - PGP basiert auf "Web of Trust", auf "Empfehlungen" der Vertrausnwürdigkeit.
+3. Erläutern Sie die Unterschiede zwischen **PGP** und hierarchischen **Zertifikaten**.
+    - PGP ("Pretty Good Privacy") basiert auf "Web of Trust", auf "Empfehlungen" der Vertrausnwürdigkeit.
     - Keine TLS Verbindung mit PGP möglich.
     - PGP wird bei Website via Addons genutzt (d.h. Entschlüsselung im Addon) 
     - Zertifikat wird dagegen von Website bereitgestellt
     - Hierarchische Zertifikate basieren auf zentraler Zertifizierungsstelle.
 
-4. Was versteht man unter dem Begriff Single Sign-On.
+4. Was versteht man unter dem Begriff **Single Sign-On**.
     - Einmalige, zentrale Authentifizierung.
-    - Autorisierung à Zugriff auf mehrere Dienste / Anwendungen / Systeme innerhalb einer umschriebenen Umgebung (Security Domain), ohne erneute Authentifizierung
+    - Autorisierung => Zugriff auf mehrere Dienste / Anwendungen / Systeme innerhalb einer umschriebenen Umgebung (Security Domain), ohne erneute Authentifizierung
 
-5. Erklären Sie die Funktionsweise von OAuth.
+5. Erklären Sie die Funktionsweise von **OAuth**.
     - Ein User autorisiert mit Hilfe eines Authorization Servers einen Client (Anwendung, Dienst) auf eine bestimmte Protected Ressource mit definierten Rechten zuzugreifen
 
-6. Beschreiben Sie die Authentifizierung mittels eID des neuen Personalausweises.
+6. Beschreiben Sie die **Authentifizierung mittels eID** des neuen Personalausweises.
     - Ausweis-App ist gestartet, Ausweis liegt im Feld des Kartenlesers, User stoßt beim Webserver Authentifizierungsprozess an
     - Ausweis-App aktiv. Händler-Zertifikat wird übertragen, Daten (Name und angeforderte Rechte) am Kartenleser oder Ausweis-App angezeigt
     - Authentifizierung des Händlers (mit priv. Schlüssel signierte Challenge, Prüfung durch Ausweis mit Hilfe des CV-Zertifikats des Händlers)
     - PIN-Eingabe des Users, Aktivierung des Ausweis-Schlüssels, Kommunikation mit Händler (Secure Channel), Datenübertragung
 
-7. Erklären Sie den Unterschied zwischen Authentisierung und Autorisierung.
+7. Erklären Sie den Unterschied zwischen **Authentisierung und Autorisierung**.
     - Unter dem Begriff Authentisierung versteht man den Nachweis der behaupteten Identität.
     - Unter dem Begriff Autorisierung versteht man die Vergabe und Verwaltung von Rechten. (Wer darf was machen)
 
-8. Was versteht man unter salzen und hashen von Passwörtern?
-    - Salzen: An das Passwort wird noch ein String angehängt und dann zusammen gehashed. Das Ziel ist es, sich gegen Rainbow-Tabellen Angriffe abzusichern.
-    - Hashen: Invektive Abbilden des Passworts in eine Menge.
-
-9. Was ist die Certification Authority?
+9. Was ist eine **Certification Authority**?
     - Vertrauenswürdige Instanz, die Zertifikate ausstellt und verwaltet
     - Bestätigt, dass ein öffentlicher Schlüssel einer bestimmten Person gehört
 
-10. Nennen Sie drei Vorteile eines ID-Providers.
+10. Nennen Sie drei Vorteile eines **ID-Providers**.
     - Ein Spezialist kümmert sich um den Identifizierungsprozess. (Dadurch Kostengünstig und sicher)
 
-11. Was versteht man unter dem TOFU-Prinzip?
+11. Was versteht man unter dem **TOFU-Prinzip**?
     - TOFU steht für Trust On First Use und bedeutet, dass der User nach einmaliger User Interaktion dauerhaft autorisiert bleibt (vgl. Passierschein).
 
-12. Nennen Sie 4 Angaben im Zertifikat (X.509 Public Key Zertifikat)
+12. Nennen Sie 4 Angaben im Zertifikat (**X.509 Public Key Zertifikat**)
     - Version (X.509v3) und Seriennummer
     - Öffentlicher Schlüssel und Kryptoalgorithmus
     - Inhaber des öffentlichen Schlüssels: Persönliche Daten bzw. Identität der Person oder der Firma oder des Servers usw.
@@ -470,20 +466,14 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - (CRL)
     - Policy des Zertifikats
     - Signatur des Ausstellers
+    - (OCSP = Online Certificate Status Protocol)
 
-13. Nennen Sie bitte die drei Anwendungen eines ID-Management Systems? Registrierung der eID in der Anwendung.
+13. Nennen Sie bitte die drei Anwendungen eines **ID-Management Systems**?
+    - Registrierung der eID in der Anwendung.
     - Verknüpfung der eID mit Rechten / Privilegien
     - Verwaltung der eID in der Anwendung
-    - Seite 37
 
-14. Nennen Sie 3 Punkte zur Verwaltung der Identität im Kontext der Authentifizierung mit Username und Password.
-    - Vorübergehende Sperrung bei vielen Authentifizierungs-Fehlversuchen (Abwehrmaßnahmen gegen Brute-Force Angriffe auf Authentifizierung)
-    - Zurücksetzen eines vergessenen Passworts
-    - Ändern des Passworts und/oder des 2. Faktors
-    - Anpassung von Rechten
-    - Bei Bedarf: Löschen der Identität
-
-15. Was erfolgt beim Registrierungsprozess? Nennen Sie zudem 3 Beispiele, wie eine Selbstregistrierung erfolgen kann. 
+15. Was erfolgt beim **Registrierungsprozess**? Nennen Sie zudem 3 Beispiele, wie eine Selbstregistrierung erfolgen kann. 
     - Der Registrierungsprozess beinhaltet die Prüfung der (physischen) Identität. Zuordnung elektronische Identität zur physischen Entität Prüfung per E-Mail Link
         - Existente Postanschrift?
         - Bekannte Postanschrift (Brief mit Passwort oder 2D-Barcode an zuvor bekannte Adresse)
@@ -506,7 +496,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
         - Registrierung durch den Systembetreiber
         - Z.B. Personalabteilung für Mitarbeiter-Identität, Bank für Online-Banking
 
-16. Nennen Sie die Schritte im Lifecycle von TLS-Zertifikaten
+16. Nennen Sie die Schritte im **Lifecycle von TLS-Zertifikaten**
     - Zuverlässige ​Identifizierung ​des Antragstellers Registrierung ​des Antragstellers
     - Sichere ​Schlüsselerzeugung
     - Zertifikatserstellung ​durch ​vertrauenswürdige Instanz
@@ -520,7 +510,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     ​- Ablauf der Gültigkeit​ des Zertifikats
     - (seite 34)
 
-17. Welche Funktionen würden für die Verwaltung der Identität benötigt?
+17. Welche Funktionen würden für die **Verwaltung der Identität** benötigt?
     1.	Sperrung bei vielen Fehlversuchen 
     2.	Zurücksetzen des Passworts 
     3.	Ändern des Passworts bzw. des 2.Faktors 
@@ -528,17 +518,17 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     5.	Löschen der Identität 
     - (S. 9) 
 
-18. Nennen Sie 3 Arten von Zertifikate. 
+18. Nennen Sie 3 Arten von **Zertifikate**. 
     1. Verschlüsselungszertifikate 
     2. Authentifizierungszertifikate 
     3. Signaturzertifikate 
     - (Seite 29)
 
-19. Warum speichert man die Usernames & Passwörter niemals im Klartext?
+19. Warum speichert man die Usernames und Passwörter niemals im Klartext?
     - Weil nach Diebstahl in andere Dienste einsetzbar sind
     - Seite 9 
 
-20. Nennen Sie sinnvolle Vorgaben für Passwortrichtlinien?
+20. Nennen Sie sinnvolle Vorgaben für **Passwortrichtlinien**?
     1. Mind. 8 Zeichen 
     2. Groß- und Kleinschreibung 
     3. Zahlen 
@@ -546,12 +536,12 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     5. Passphrases akzeptieren 
     - Seite 16 
 
-21. Erklären sie das PGP (pretty good privacy) Modell.
+21. Erklären sie das **PGP** (pretty good privacy) **Modell**.
     - “Ich bestätige die Zuordnung des Schlüssels zu einer Person. Wenn Sie mir vertrauen, akzeptieren Sie diese Zuordnung.”
     - Flache Stern-Struktur 
     - (Seite 32) 
 
-22. Nennen Sie 3 Anwendungsgebiete für CV-Zertifikate? 
+22. Nennen Sie 3 Anwendungsgebiete für **CV-Zertifikate** (CV = Card Verification)? 
     1. Elektronische Gesundheitskarte und Heilberufsausweis 
     2. Reisepass
     3. Personalausweis 

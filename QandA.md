@@ -189,7 +189,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 ## IT-Sicherheit (Grundlagen)
 
-1. Beschreiben Sie den Prozess zur ständigen Verbesserung der Systemsicherheit.
+1. Beschreiben Sie den Prozess zur **ständigen Verbesserung der Systemsicherheit**.
     - Problemstellung verstehen und analysieren
     - basierend auf Anforderungen und Risiken werden Maßnahmen abgeleitet/ geplant
     - diese werden dann realisiert
@@ -201,7 +201,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - geheime Verschlüsselungsalgorithmen suggerieren den Vorteil, dass der Source Code nicht bekannt ist
     - jedoch täuscht dieses Prinzip "security by obscurity" eine nicht vorhandene Sicherheit und stellt keinerlei effektive Abwehr gegen Bedrohungen dar
 
-3. Von was hängt die Stärke der Gesamtsicherheit eines Systems ab?
+3. Von was hängt die Stärke der **Gesamtsicherheit** eines Systems ab?
     - vom schwächsten Glied in der Kette
     - neben der IT-Sicherheit müssen auch physische Sicherheit und organisatorische Sicherheiten berücksichtigt werden
 
@@ -211,44 +211,44 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - durch die Vernetzung werden potentielle Angriffsmöglichkeiten geschaffen, da auf die Daten von unterschiedlichen Standorten zugegriffen werden können
     - je größer die Vernetzung, desto größer skaliert auch der Angriff, der auf diese Vernetzung möglich ist
 
-5. Nennen Sie drei allgemeine Ziele von Sicherheitsmaßnahmen.
+5. Nennen Sie die drei allgemeine **Ziele von Sicherheitsmaßnahmen**.
     - Prävention von Angriffen
     - Angriffserkennung
     - Reaktion auf Angriffe (in Sinne von Schadensbegrenzung)
 
-6. Was versteht man unter “Security by obscurity” und warum sollte man es nicht anwenden?
+6. Was versteht man unter “**Security by obscurity**” und warum sollte man es nicht anwenden?
     - Das bedeutet, dass man darauf vertraut, dass bekannte Sicherheitslücken geheim bleiben und deshalb keine Maßnahmen ergriffen werden.
     - Sobald die Sicherheitslücke nicht mehr geheim ist, ist System offen.
 
 7. Erläutern Sie den Begriff von “Skalierbarkeit von Angriffen” im Kontext von IT-Sicherheit.
-    - Angriff skalieren mit einsatz von IT (Papierakten vs. digtitalen Akten)
-    - Angriffe skalieren mit dem Grad der Vernetzug (Arzt mit einer Niederlassung vs. Praxenverbund)
+    - Angriff skalieren mit einsatz von IT (Papierakten vs. digitalen Akten)
+    - Angriffe skalieren mit dem Grad der Vernetzung (Arzt mit einer Niederlassung vs. Praxenverbund)
     - Sicherheitslücke kann unter Umständen zum Verlust enorm vieler Daten führen. 
 
-8. Was ist Vertraulichkeit und wie wird diese erreicht?
+8. Was ist **Vertraulichkeit** und wie wird diese erreicht?
     - Schutz vor unbefugter Offenbarung von Daten. (Unbefugte dürfen als „vertraulich“ eingestufte Informationen nicht lesen (können!))
     - Verschlüsselung
     - Physikalische und organisatorische Sicherheit.
     - Effektive Zugriffskontrolle
 
-9. Was ist Integrität und wie wird diese erreicht?
+9. Was ist **Integrität** und wie wird diese erreicht?
     - Schutz vor unautorisierter oder zumindest unbemerkter Veränderung von Daten
-    - Kryptographische Hashwerte (Prüfsummen) und
+    - Kryptographische Hashwerte (Prüfsummen)
     - Elektronische Signaturen
     - Effektive Zugriffskontrolle
     - Einmal-beschreibbare Medien (WORM, CD-R)
     - Physikalische Sicherheit
 
-10. Was ist der Unterschied zwischen Sicherheitsstrategie und Sicherheitskonzept im Kontext von IT-Sicherheit?
+10. Was ist der Unterschied zwischen **Sicherheitsstrategie** und **Sicherheitskonzept** im Kontext von IT-Sicherheit?
     - Sicherheitsstrategie: Globale Sicherheitsstrategie (high-level dokument) für das Unternehmen, allgemein, blickt in die Zukunft.
     - Sicherheitskonzept: Konkrete Maßnahmen für die jeweiligen Anwendungen
-        - Wertertmittlung
+        - Werte Ermittlung
         - Schutzbedarf festelllen
         - Bedrohung- und Schwachstellenanalyse
         - Risikoanalyse
         - Rollen Verantwortlichkeiten
 
-11. Nennen Sie die 6 allgemeinen Sicherheitsziele in der Informationssicherheit und ordnen Sie diese nach Wichtigkeit/Priorität
+11. Nennen Sie die 6 allgemeinen **Sicherheitsziele in der Informationssicherheit** und ordnen Sie diese nach Wichtigkeit/Priorität
     - Vertraulichkeit
     - Integrität von Daten und Systemen
     - Verfügbarkeit
@@ -256,11 +256,6 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Autorisierung (was darf der Anwender machen? Rechteverwaltung)
     - Verbindlichkeit (vgl. heutige „Papierwelt“?)
     - „Privatheit“ (privacy, Datenschutz, Schutz der Privatsphäre, informationelle Selbstbestimmung, Datenkontrolle)
-
-12. Nennen sie drei allgemeine Sicherheitsziele
-    - Vertraulichkeit (Confidentiality)
-    - Integrität von Daten und Systemen (Integrity)
-    - Verfügbarkeit (Availability)
 
 13. Welche Voraussetzungen sind für ein IT-Sicherheitskonzept notwendig?
     - Werte-Ermittlung
@@ -270,7 +265,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Risikoanalyse
     - (Seite 17)
 
-14. Was beinhaltet die Schutzbedarfsfeststellung?
+14. Was beinhaltet die **Schutzbedarfsfeststellung**?
     1. Identifizierung der Werte
     2. Sicherheitsziel für jeden Wert ermitteln
     3. Welche Schäden können auftreten
@@ -278,15 +273,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     5. Wie stark muss ein Wert geschützt werden
     - (Folie 9-10)
 
-15. Wie kann Integrität erreicht werden, nennen sie 3 Stichpunkte?
-    - Kryptographische Hashwerte (Prüfsummen) und
-    - Elektronische Signaturen
-    - Effektive Zugriffskontrolle
-    - Einmal-beschreibbare Medien (WORM, CD-R)
-    - Physikalische Sicherheit
-    - (Seite 42)
-
-16. Wie kann Verfügbarkeit erreicht werden, nennen Sie 3 Stichpunkte?
+16. Wie kann **Verfügbarkeit** erreicht werden, nennen Sie 3 Stichpunkte?
     - Sicherheitskopien (Backups)
     - Redundante Ressourcen
     - Physische Sicherheit
@@ -300,15 +287,14 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Verfügbarkeit (Daten sind da wenn man sie braucht) - Backup der Daten
     - (s. Seite 8)
 
-18. Was sind Werte im Kontext der IT-Sicherheit? Nennen Sie bitte 2 Beispiele
+18. Was sind **Werte im Kontext der IT-Sicherheit**? Nennen Sie bitte 2 Beispiele
     - Werte sind alles was man schützen möchten. Z.B.: Geld, Daten, Image, Personal, Forschungs- und Entwicklungsdaten
-    - Ein Asset ist ein Gegenstand, eine Sache oder ein Wesen, das einen potenziel-
-len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen verschiedenen Organisationen und deren Stakeholder variieren und materiell oder immateriell, finanziell oder nicht finanziell sein. (vgl. ISO 55000-55002:2014-01 )
+    - Ein Asset ist ein Gegenstand, eine Sache oder ein Wesen, das einen potenziellen oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen verschiedenen Organisationen und deren Stakeholder variieren und materiell oder immateriell, finanziell oder nicht finanziell sein. (vgl. ISO 55000-55002:2014-01 )
     - Kurzform:
         1. Image von einem Unternehmen
         2. Entwicklungsdaten
 
-19. Nennen Sie bitte ein Beispiel für Zugriffskontrolle im Kontext der IT-Sicherheit?
+19. Nennen Sie bitte ein Beispiel für **Zugriffskontrolle** im Kontext der IT-Sicherheit?
     - Festlegen, wer welche Daten lesen, schreiben, verändern, löschen darf.
     - Festlegen, wer welche Ressourcen nutzen darf
     - Mechanismen implementieren, die sicherstellen, dass nur autorisierte Subjekte (Personen, Rechner, Prozesse usw.) Zugriff erhalten
@@ -324,16 +310,13 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - (s. Seite 20-21-22)
     - Datenübertragung (Netzwerk) durch Verschlüsselung geschützt Verschlüsselte VPN-Verbindungen zu mobilen und Heimarbeitsplätzen, Daten sind sicher. <br/> ABER <br/> Unzureichender Schutz gespeicherter Daten - Daten auf Notebook sind unverschlüsselt, mobiler Mitarbeiter vergisst Notebook im Taxi.
 
-22. Was ist Security-by-Obscurity und was ist die schlimmste Ausprägung davon?
-    - Ich bin deshalb sicher, weil ich darauf vertraue, dass meine Schwachstellen und Sicherheitsmaßnahmen geheim bleiben. Schlimmste Ausprägung ist ein „geheimer Verschlüsselungsalgorithmus“. Gilt als Todsünde in der IT-Sicherheit.
-    - (s. Seite 34-35)
-
 ## Authentifizierung
 
-1. Welche Methoden der Authentifizierung einer Person gegen einem IT-System werden für eine 2-Faktor Authentifizierung üblicherweise kombiniert?
-    - Wissen & Besitz Wissen & Biometrie
+1. Welche Methoden der Authentifizierung einer Person gegen einem IT-System werden für eine **2-Faktor Authentifizierung** üblicherweise kombiniert?
+    - Wissen & Besitz 
+    - Wissen & Biometrie
 
-2. Nennen Sie 3 Schwachstellen bzw. Eingriffsmöglichkeiten bei einer Authentifizierung mit Username und Passwort. Was wäre eine Lösung um alle diese Schwachstellen zu umgehen?
+2. Nennen Sie 3 Schwachstellen bzw. Eingriffsmöglichkeiten bei einer **Authentifizierung mit Username und Passwort**. Was wäre eine Lösung um alle diese Schwachstellen zu umgehen?
     - Kann beim Eingeben oder Übertragen abgehört werden
     - Passwort kann beim Authentifizierer gestohlen werden
     - Viele nutzen das gleiche Passwort für verschiedene Dienste
@@ -343,33 +326,32 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - Social Engineering / Phishing <br/> Maßnahmen:
         - Durch Verwendung eines Passwortmanagers kann das Risiko minimiert werden. Systematik für Passwörter (Um starke Passwörter zu generieren)
 
-3. Was ist der Unterschied zwischen Authentizität und Verbindlichkeit?
-    - Bei der Verbindlichkeit kann man die Authentizität (Identitätsnachweis) auch gegenüber einem Dritten beweisen.
-
-4. Nennen Sie die primäre und sekundäre Aufgabe einer Chipkarte
+4. Nennen Sie die primäre und sekundäre Aufgabe einer **Chipkarte**
     - Primäre Aufgabe: Sicherer Schlüsselspeicher. Kryptographische Berechnungen mit o.g. Schlüssel
-    - Sekundäre Aufgaben: Datenspeicher. Notfalldaten und e-Medikationsplan für die Gesundheitskarte
+    - Sekundäre Aufgaben: Datenspeicher. Z. B.: Notfalldaten und e-Medikationsplan für die e-Gesundheitskarte
 
-5. Was ist zwischen Chip-Karten und RFID Technologie die Sicherste Variante? Warum? RFID ist sicherer wegen Einsatz des PACE-Protokolls.
+5. Was ist zwischen Chip-Karten und **RFID** Technologie die Sicherste Variante? Warum? 
+    - RFID ist sicherer wegen Einsatz des PACE-Protokolls.
     - Authentifizierter Schlüsselaustausch
     - Secure Channel, verschlüsselte/authentifizierte Verbindung
 
-6. Nennen sie 3 Anforderungen für eine elektronische Authentifizierung
+6. Nennen sie 3 Anforderungen für eine **elektronische Authentifizierung**
     - Eine vertrauenswürdige Instanz sollte (je nach Anwendungsfall) die Zuordnung einer elektronischen Identität zu einer physischen Person sicher herstellen und bestätigen
     - Elektronische Authentifizierungsmedien müssen schwer kopierbar und fälschbar sein
     - sichere Authentifizierungsmethoden
     - Nachweis der Identität muss sicher sein
     - (Seite 8 - 11)
 
-7. Nennen Sie die 4 grundsätzlichen Methoden der Authentifizierung eines Menschen gegenüber einem IT System?
+7. Nennen Sie die 4 grundsätzlichen Methoden der **Authentifizierung eines Menschen gegenüber einem IT System**?
     - Wissen (eines Geheimnis)
     - Besitz (eines Gegenstandes)
     - Persönliches Merkmal
     - 2-Faktor Authentication
     - (Seite 12)
 
-8. Unterschied zwischen der Authentizität und der Verbindlichkeit?
-    -  Bei Authentizität ist man sich nur hinsichtlich der Identität der Person oder Daten sicher - bei Verbindlichkeit kann man dieses Wissen auch gegenüber Dritten beweisen (Seite 16)
+8. Unterschied zwischen der **Authentizität und der Verbindlichkeit**?
+    -  Bei Authentizität ist man sich nur hinsichtlich der Identität der Person oder Daten sicher 
+    - bei Verbindlichkeit kann man dieses Wissen auch gegenüber Dritten beweisen (Seite 16)
 
 9. Nennen Sie den Vorteil der 2-Faktor Authentifizierung?
     - Wenn zwei unabhängige Faktoren kombiniert werden, ist die Wahrscheinlichkeit, dass beide Kompromittiert werden, sehr gering. <br/>oder<br/>
@@ -381,38 +363,22 @@ len oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen 
     - Biometrie (Match on card)
     - (Seite 56)
 
-11. Was sind die Unterschiede zwischen Verbindlichkeit und Authentizität?
-    -  Authentizität: ich bin mir sicher, das die Daten / das Subjekt (User/Rechner/Prozess/Dokument) echt sind und kenne ihre Herkunft oder Identität
-    -  Verbindlichkeit: ich kann dies auch gegenüber einem Dritten beweisen!
-
 12. Was sind mögliche Probleme bei einer 2-Faktor Authentifizierung mittels m-Tan?
     -  Wenn beispielsweise Onlinebanking auf Smartphone benutzt wird und dort hin auch der mTan gesendet wird, ist die 2-Faktor Authentifizierung nicht mehr gegeben. Angreifer müssen so nur das Mobiltelefon besitzen um Zugriff zu erlangen. => Dazu muss aber auch Kennwort bekannt sein. Da zwei unterschiedliche Apps
 
-13. Was sind die grundsätzlichen Möglichkeiten für eine Authentifizierung?
-    -  Wissen
-    -  Besitz
-    -  Persönliches Merkmal
-    -  2-Faktor Authentifizierung
-
-14. Erläutern Sie grob das Konzept der biometrischen Authentifizierung. Wie kann in diesem Zusammenhang die false accept rate und die false reject rate beeinflusst werden?
+14. Erläutern Sie grob das Konzept der **biometrischen Authentifizierung**. Wie kann in diesem Zusammenhang die false accept rate und die false reject rate beeinflusst werden?
     -  Nutzung von individuellen körperlichen Merkmalen zur Authentifizierung.
     -  Mit Nutzung von Wahrscheinlichkeitberechnung hinsichtlich der Übereinstimmung.<br/>Damit Balance zwischen False Accept Rate und False Reject Rate zu finden.
 
-15. Erläutern Sie den Vorgang der Authentifizierung mittels einer Chipkarte und warum  gilt diese als besonders sicher?
+15. Erläutern Sie den Vorgang der **Authentifizierung mittels einer Chipkarte** und warum  gilt diese als besonders sicher?
     -  Kryptographische Authentifizierung mit technischer Signatur
     -  Alternativ: Berechnung mit symmetrischem Schlüssel
     -  Privater oder sym. Schlüssel ist im Chip der Karte gespeichert (Besitz)
     -  Aktivierung des priv. Schlüssels notwendig (2. Faktor)
     -  Weil der Schlüssel nicht auslesbar ist.
 
-16. Was bedeutet Authentizität?
+16. Was bedeutet **Authentizität**?
     - Unter dem Begriff Authentizität versteht man das Sicherheitsziel, den Nachweis einer Identität zu erbringen. Es soll die Identität/ Herkunft/ Echtheit von Daten oder von einem Subjekt (Person, Rechner, Prozess etc.) nachgewiesen werden.
-
-17. Nennen Sie die vier grundsätzlichen Methoden der Authentifizierung eines Menschen gegenüber eines IT-Systems und beschreiben Sie diese kurz.
-    - Wissen: z.B. durch die Eingabe eines Passworts
-    - Besitz: durch den Nachweis, dass man etwas besitzt (z.B. Handy, Chipkarte)
-    - Persönliches Merkmal: z.B. biometrisches Merkmal wie Iris, Gesicht, Fingerabdruck
-    - 2-Faktor Authentifizierung: Kombination von 2 der oben genannten Methoden
 
 18. Beschreiben Sie den Vorteil einer Funkübertragung (RFID) im Vergleich zu einer Übertragung mittels direkten Kontakt bei Chipkarten.
     - Identität eines Gegenstands kann damit nachgewiesen werden und zwar aus der Ferne

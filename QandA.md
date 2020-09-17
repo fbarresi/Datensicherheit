@@ -394,7 +394,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 ## Identity Management
 
-1. Wieso ist Identity Management wichtig?
+1. Wieso ist **Identity Management** wichtig?
     - Folgende Ziele sollen damit erreicht werden:
         - Identifizierung von Menschen, Objekten, Organisationen, IT-Systemen, Prozessen
         - Authentisierung der o.g. Menschen, Objekten, IT-Systemen, Prozessen
@@ -409,8 +409,8 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 3. Erläutern Sie die Unterschiede zwischen **PGP** und hierarchischen **Zertifikaten**.
     - PGP ("Pretty Good Privacy") basiert auf "Web of Trust", auf "Empfehlungen" der Vertrausnwürdigkeit.
-    - Keine TLS Verbindung mit PGP möglich.
-    - PGP wird bei Website via Addons genutzt (d.h. Entschlüsselung im Addon) 
+        - Keine TLS Verbindung mit PGP möglich.
+        - PGP wird bei Website via Addons genutzt (d.h. Entschlüsselung im Addon) 
     - Zertifikat wird dagegen von Website bereitgestellt
     - Hierarchische Zertifikate basieren auf zentraler Zertifizierungsstelle.
 
@@ -491,14 +491,12 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Sichere ​Schlüsselerzeugung
     - Zertifikatserstellung ​durch ​vertrauenswürdige Instanz
         - Öffentlicher Schlüssel, Domain-Name und weitere technische Daten werden von der CA signiert
-        - Übermittlung des Zertifikats
-    ​- Veröffentlichung ​des Zertifikats beim OCSP-Responder
+        - Übermittlung des Zertifikats 
+    - Veröffentlichung ​des Zertifikats beim OCSP-Responder
     - Prüfung durch Browser wird ermöglicht
-    - Kritik am System: Browser prüfen nicht konsequent
-    Ggf. vorzeitige ​Sperrung ​des Zertifikats bei Bedarf
+    - Kritik am System: Browser prüfen nicht konsequent Ggf. vorzeitige ​Sperrung ​des Zertifikats bei Bedarf
         - OCSP-Responder meldet Status „gesperrt am....“
-    ​- Ablauf der Gültigkeit​ des Zertifikats
-    - (seite 34)
+    - Ablauf der Gültigkeit​ des Zertifikats
 
 17. Welche Funktionen würden für die **Verwaltung der Identität** benötigt?
     1.	Sperrung bei vielen Fehlversuchen 
@@ -506,36 +504,30 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     3.	Ändern des Passworts bzw. des 2.Faktors 
     4.	Anpassung von Rechten 
     5.	Löschen der Identität 
-    - (S. 9) 
 
 18. Nennen Sie 3 Arten von **Zertifikate**. 
     1. Verschlüsselungszertifikate 
     2. Authentifizierungszertifikate 
     3. Signaturzertifikate 
-    - (Seite 29)
 
 19. Warum speichert man die Usernames und Passwörter niemals im Klartext?
     - Weil nach Diebstahl in andere Dienste einsetzbar sind
-    - Seite 9 
 
 20. Nennen Sie sinnvolle Vorgaben für **Passwortrichtlinien**?
-    1. Mind. 8 Zeichen 
-    2. Groß- und Kleinschreibung 
-    3. Zahlen 
-    4. Sonderzeichen 
-    5. Passphrases akzeptieren 
-    - Seite 16 
+    - Mind. 8 Zeichen 
+    - Groß- und Kleinschreibung 
+    - Zahlen 
+    - Sonderzeichen 
+    - Passphrases akzeptieren 
 
 21. Erklären sie das **PGP** (pretty good privacy) **Modell**.
     - “Ich bestätige die Zuordnung des Schlüssels zu einer Person. Wenn Sie mir vertrauen, akzeptieren Sie diese Zuordnung.”
     - Flache Stern-Struktur 
-    - (Seite 32) 
 
 22. Nennen Sie 3 Anwendungsgebiete für **CV-Zertifikate** (CV = Card Verification)? 
     1. Elektronische Gesundheitskarte und Heilberufsausweis 
     2. Reisepass
     3. Personalausweis 
-    - (Seite 53) 
 
 ## Signaturverfahren
 

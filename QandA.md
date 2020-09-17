@@ -188,16 +188,16 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - das funktionsfähige System wird geprüft, ob die Sicherheitskriterien eingehalten werden (= Messung und Validieren)
     - nach Abschluss der Bewertung wird die Problemstellung angepasst und weiterentwickelt
 
-2. Erklären Sie warum ein geheimer Verschlüsselungsalgorithmus sicher oder nicht sicher sein kann.
+2. Erklären Sie warum ein **geheimer Verschlüsselungsalgorithmus** sicher oder nicht sicher sein kann.
     - Sicherheitsexperten prüfen öffentliche Verschlüsselungsalgorithmen, sodass die optimierten und weiterentwickelten Algorithmen tatsächlich eine sehr hohe Qualität hinsichtlich der IT-Sicherheit erreichen
     - geheime Verschlüsselungsalgorithmen suggerieren den Vorteil, dass der Source Code nicht bekannt ist
     - jedoch täuscht dieses Prinzip "security by obscurity" eine nicht vorhandene Sicherheit und stellt keinerlei effektive Abwehr gegen Bedrohungen dar
 
-3. Von was hängt die Stärke der **Gesamtsicherheit** eines Systems ab?
+3. Von was hängt die **Stärke der Gesamtsicherheit** eines Systems ab?
     - vom schwächsten Glied in der Kette
     - neben der IT-Sicherheit müssen auch physische Sicherheit und organisatorische Sicherheiten berücksichtigt werden
 
-4. Erläutern Sie warum Angriffe mit dem Einsatz von IT und dem Grad der Vernetzung skalieren.
+4. Erläutern Sie warum **Angriffe** mit dem Einsatz von IT und dem Grad der Vernetzung **skalieren**.
     - in der analogen Welt, kann ein Einbruch/ Angriff (begrenzt auf eine gewisse Menge an Informationen/ Daten in einem definierten Zeitraum (Risiko erwischt zu werden) und an einem konkreten Ort) stattfinden
     - durch den Einsatz von IT wird die Begrenzung der Menge aufgehoben
     - durch die Vernetzung werden potentielle Angriffsmöglichkeiten geschaffen, da auf die Daten von unterschiedlichen Standorten zugegriffen werden können
@@ -212,7 +212,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Das bedeutet, dass man darauf vertraut, dass bekannte Sicherheitslücken geheim bleiben und deshalb keine Maßnahmen ergriffen werden.
     - Sobald die Sicherheitslücke nicht mehr geheim ist, ist System offen.
 
-7. Erläutern Sie den Begriff von “Skalierbarkeit von Angriffen” im Kontext von IT-Sicherheit.
+7. Erläutern Sie den Begriff von “**Skalierbarkeit von Angriffen**” im Kontext von IT-Sicherheit.
     - Angriff skalieren mit einsatz von IT (Papierakten vs. digitalen Akten)
     - Angriffe skalieren mit dem Grad der Vernetzung (Arzt mit einer Niederlassung vs. Praxenverbund)
     - Sicherheitslücke kann unter Umständen zum Verlust enorm vieler Daten führen. 
@@ -231,9 +231,9 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Einmal-beschreibbare Medien (WORM, CD-R)
     - Physikalische Sicherheit
 
-10. Was ist der Unterschied zwischen **Sicherheitsstrategie** und **Sicherheitskonzept** im Kontext von IT-Sicherheit?
-    - Sicherheitsstrategie: Globale Sicherheitsstrategie (high-level dokument) für das Unternehmen, allgemein, blickt in die Zukunft.
-    - Sicherheitskonzept: Konkrete Maßnahmen für die jeweiligen Anwendungen
+10. Was ist der Unterschied zwischen **Sicherheitsstrategie** und **Sicherheitskonzept** im Kontext der IT-Sicherheit?
+    - **Sicherheitsstrategie**: Globale Sicherheitsstrategie (high-level dokument) für das Unternehmen, allgemein, blickt in die Zukunft.
+    - **Sicherheitskonzept**: Konkrete Maßnahmen für die jeweiligen Anwendungen
         - Werte Ermittlung
         - Schutzbedarf festelllen
         - Bedrohung- und Schwachstellenanalyse
@@ -245,17 +245,16 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Integrität von Daten und Systemen
     - Verfügbarkeit
     - Authentizität (u.a. auch „Echtheit“)
-    - Autorisierung (was darf der Anwender machen? Rechteverwaltung)
+        - Autorisierung (was darf der Anwender machen? Rechteverwaltung)
     - Verbindlichkeit (vgl. heutige „Papierwelt“?)
     - „Privatheit“ (privacy, Datenschutz, Schutz der Privatsphäre, informationelle Selbstbestimmung, Datenkontrolle)
 
-13. Welche Voraussetzungen sind für ein IT-Sicherheitskonzept notwendig?
+13. Welche Voraussetzungen sind für ein **IT-Sicherheitskonzept** notwendig?
     - Werte-Ermittlung
     - Schutzbedarfsfeststellung,
-    - Bedrohungs-,
+    - Bedrohungsanalyse,
     - Schwachstellenanalyse,
     - Risikoanalyse
-    - (Seite 17)
 
 14. Was beinhaltet die **Schutzbedarfsfeststellung**?
     1. Identifizierung der Werte
@@ -263,9 +262,8 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     3. Welche Schäden können auftreten
     4. Wie hoch können die Schäden sein im Verhältnis zum Wert
     5. Wie stark muss ein Wert geschützt werden
-    - (Folie 9-10)
 
-16. Wie kann **Verfügbarkeit** erreicht werden, nennen Sie 3 Stichpunkte?
+16. Wie kann **Verfügbarkeit** erreicht werden? Nennen Sie 3 Stichpunkte.
     - Sicherheitskopien (Backups)
     - Redundante Ressourcen
     - Physische Sicherheit
@@ -274,15 +272,17 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Netzwerksicherheit, Abwehr gegen (D)DOS-Angriffe
 
 17. Nennen Sie bitte drei Allgemeine IT-Sicherheitsziele. Durch welche Methode kann man sie erreichen (jeweils eine Methode)? 
-    - Vertraulichkeit (Schutz von unbefugte Offenbarung von Daten, Geheimhaltung) - Verschlüsselung der Daten, 
-    - Integrität (Schutz vor unautorisierter oder unbemerkte Veränderung von Daten) - Hashing, 
+    - Vertraulichkeit (Schutz von unbefugte Offenbarung von Daten, Geheimhaltung) - Verschlüsselung der Daten 
+    - Integrität (Schutz vor unautorisierter oder unbemerkte Veränderung von Daten) - Hashing
     - Verfügbarkeit (Daten sind da wenn man sie braucht) - Backup der Daten
-    - (s. Seite 8)
+    - Authentizität (u.a. auch „Echtheit“) - Zugriffskontrolle, HMAC, technische Signaturen
+    - Verbindlichkeit (vgl. heutige „Papierwelt“?) - Qualifizierte elektronische Signatur
+    - Privatheit - Verschlüsselung der Daten
 
 18. Was sind **Werte im Kontext der IT-Sicherheit**? Nennen Sie bitte 2 Beispiele
     - Werte sind alles was man schützen möchten. Z.B.: Geld, Daten, Image, Personal, Forschungs- und Entwicklungsdaten
     - Ein Asset ist ein Gegenstand, eine Sache oder ein Wesen, das einen potenziellen oder tatsächlichen Wert für eine Organisation hat. Der Wert kann zwischen verschiedenen Organisationen und deren Stakeholder variieren und materiell oder immateriell, finanziell oder nicht finanziell sein. (vgl. ISO 55000-55002:2014-01 )
-    - Kurzform:
+    - Beispiele:
         1. Image von einem Unternehmen
         2. Entwicklungsdaten
 
@@ -290,16 +290,13 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Festlegen, wer welche Daten lesen, schreiben, verändern, löschen darf.
     - Festlegen, wer welche Ressourcen nutzen darf
     - Mechanismen implementieren, die sicherstellen, dass nur autorisierte Subjekte (Personen, Rechner, Prozesse usw.) Zugriff erhalten
-    - (s. Seite 51)
 
-20. Wodurch skalieren IT-Angriffe? Beschreiben Sie anhand von zwei Beispiele und nennen Sie jeweils eine Gegenmaßnahmen.
+20. Wodurch **skalieren IT-Angriffe**? Beschreiben Sie anhand von zwei Beispiele und nennen Sie jeweils eine Gegenmaßnahmen.
     - Einsatz von IT Systemen - Grad der Vernetzung  zwischen IT-Systemen
     - Beispiel: <br/>Arztpraxis mit Rechner auf dem Patientendaten gespeichert sind. Wenn jemand Patientenakten stehlen will, hat er durch den Diebstahl des Rechners wesentlich mehr Akten gestohlen als wenn diese nur Physisch vorhanden wären. **Abwehrmaßnahme**​: Verschlüsselung der Daten auf dem Praxisrechner.
     - Beispiel: <br/>Arztpraxis mit allen Arztpraxen vernetzt, Daten sind in zentraler Infrastruktur gespeichert. Ein Angriff skaliert enorm da er den Zugriff auf alle Patientenakten aus allen Praxen ermöglichen würde. ​**Abwehrmaßnahme**​: Dezentralisierung der Daten über Dezentralisierung der Schlüsseln.
-    - (s. Seite 25 und weitere)
 
-21. Nenne Sie ein Beispiel für mögliche Folgen wenn nicht die Gesamtsicherheit (z.B. eines Unternehmens) betrachtet wird, sondern nur die IT-Sicherheit.
-    - (s. Seite 20-21-22)
+21. Nenne Sie ein Beispiel für mögliche Folgen wenn nicht die **Gesamtsicherheit** (z.B. eines Unternehmens) betrachtet wird, sondern nur die **IT-Sicherheit**.
     - Datenübertragung (Netzwerk) durch Verschlüsselung geschützt Verschlüsselte VPN-Verbindungen zu mobilen und Heimarbeitsplätzen, Daten sind sicher. <br/> ABER <br/> Unzureichender Schutz gespeicherter Daten - Daten auf Notebook sind unverschlüsselt, mobiler Mitarbeiter vergisst Notebook im Taxi.
 
 ## Authentifizierung

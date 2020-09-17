@@ -22,7 +22,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
         - lebenswichtige Iteressen der Betroffenen
         - erhebliche öffentliche Interesse
         - Rechtansprüche
-        - bür die Kategorien selbst (z.B. Kirche, Gewerkschaft)
+        - für die Kategorien selbst (z.B. Kirche, Gewerkschaft)
         - bei öffentliche Daten, wenn die Person es zulässt
         - für medizinische Zwecken, wenn unter Geheimnis
         - öffentliche Gesundheit und Sozialrecht

@@ -552,7 +552,6 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Für ein gegebenes Dokument m ist es praktisch unmöglich ein Dokument m‘ zu finden, sodass beide Dokumente den gleichen Hashwert h ergeben (**second preimage resistance**)
     - Es ist praktisch nicht möglich, zwei unterschiedliche Dokumente m und m‘ zu finden, die den gleichen Hashwert h haben (**collision resistance**)
     - Die beste Methode, eine Kollision zu finden, ist alle mögliche Dokumente auszuprobieren (brute force)
-    - (Seite 9)
 
 5. Erklären Sie die Funktionsweise von **MAC** (Message Authentication Codes)
     - Ein MAC wird eingesetzt um die Manipulation einer Nachricht sicher zu erkennen und um die Authentizität der Nachricht sicherzustellen
@@ -572,7 +571,6 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 9. Was ist die **Idee von Signaturen**?
     - "Wenn sich das Dokument mit dem öffentlichen Schlüssel des Signierers entschlüsseln lässt, kann es nur mit dem zugehörigen privaten Schlüssel verschlüsselt worden sein"
-    - (S. 24)
 
 10. Welche Zwecke haben **technische Signaturen**?
     - Starke Authentifizierung von Personen, IT-Systemen gegenüber anderen IT-Systemen
@@ -581,7 +579,6 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 
 11. Wann ist eine **Signatur gültig**?
     - Wenn sie mathematisch korrekt ist, und wenn zum Zeitpunkt der Signaturerstellung das Signaturzertifikat gültig war
-    - (S. 39)
 
 12. Welche Eigenschaften hat eine **Qualifizierte elektronische Signatur**?
     - Eine qualifizierte elektronische Signatur hat die gleiche Rechtswirkung wie eine handschriftliche Unterschrift
@@ -603,12 +600,10 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Prüfinformationen für die elektronische Signatur
     - „Frischhalten“ der Kryptographie der Signatur durch Übersignaturen inkl. Prüfinformationen
     - Sicherer Archivierungsprozess
-    - (Seite 67)
 
 15. Wofür steht **DMS** und was versteht man darunter? 
     - DMS steht für Dokumentenmanagementsystem
     - Eine elektronische Vewaltung von Dokumenten (Papier, Multimedia und elektronische Dokumente)
-    - (Seite 47)
 
 18. Hat eine qualifizierte elektronische Signatur die gleiche Rechtswirkung wie eine handschriftliche Unterschrift?
     - Ja - nach Art. 25 Abs. 2 eIDAS-Verordnung 
@@ -617,4 +612,3 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Wirtschaftlichkeit 
     - Steigerung der Effizienz 
     - Kostensenkung 
-    - (Seite 49) 

@@ -292,7 +292,8 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Mechanismen implementieren, die sicherstellen, dass nur autorisierte Subjekte (Personen, Rechner, Prozesse usw.) Zugriff erhalten
 
 20. Wodurch **skalieren IT-Angriffe**? Beschreiben Sie anhand von zwei Beispiele und nennen Sie jeweils eine Gegenmaßnahmen.
-    - Einsatz von IT Systemen - Grad der Vernetzung  zwischen IT-Systemen
+    - Einsatz von IT Systemen 
+    - Grad der Vernetzung  zwischen IT-Systemen
     - Beispiel: <br/>Arztpraxis mit Rechner auf dem Patientendaten gespeichert sind. Wenn jemand Patientenakten stehlen will, hat er durch den Diebstahl des Rechners wesentlich mehr Akten gestohlen als wenn diese nur Physisch vorhanden wären. **Abwehrmaßnahme**​: Verschlüsselung der Daten auf dem Praxisrechner.
     - Beispiel: <br/>Arztpraxis mit allen Arztpraxen vernetzt, Daten sind in zentraler Infrastruktur gespeichert. Ein Angriff skaliert enorm da er den Zugriff auf alle Patientenakten aus allen Praxen ermöglichen würde. ​**Abwehrmaßnahme**​: Dezentralisierung der Daten über Dezentralisierung der Schlüsseln.
 
@@ -329,31 +330,29 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Elektronische Authentifizierungsmedien müssen schwer kopierbar und fälschbar sein
     - sichere Authentifizierungsmethoden
     - Nachweis der Identität muss sicher sein
-    - (Seite 8 - 11)
 
 7. Nennen Sie die 4 grundsätzlichen Methoden der **Authentifizierung eines Menschen gegenüber einem IT System**?
     - Wissen (eines Geheimnis)
     - Besitz (eines Gegenstandes)
     - Persönliches Merkmal
     - 2-Faktor Authentication
-    - (Seite 12)
 
 8. Unterschied zwischen der **Authentizität und der Verbindlichkeit**?
     -  Bei Authentizität ist man sich nur hinsichtlich der Identität der Person oder Daten sicher 
-    - bei Verbindlichkeit kann man dieses Wissen auch gegenüber Dritten beweisen (Seite 16)
+    - bei Verbindlichkeit kann man dieses Wissen auch gegenüber Dritten beweisen
 
-9. Nennen Sie den Vorteil der 2-Faktor Authentifizierung?
+9. Nennen Sie den **Vorteil der 2-Faktor Authentifizierung**?
     - Wenn zwei unabhängige Faktoren kombiniert werden, ist die Wahrscheinlichkeit, dass beide Kompromittiert werden, sehr gering. <br/>oder<br/>
-    - Wenn es sich um eine Chip-Karte handelt, ist es eine der sichersten Authentifizierungsmethoden überhaupt (Seite 53)
+    - Wenn es sich um eine Chip-Karte handelt, ist es eine der sichersten Authentifizierungsmethoden überhaupt
 
 10. Nennen Sie 3 Methoden zur Aktivierung der Chipkarte
     - PIN (Eingabe an einem Kartenleser)
     - Authentifizierung mit einem Krypto-Schlüssel, i.d.R. einer anderen Chipkarte
     - Biometrie (Match on card)
-    - (Seite 56)
 
-12. Was sind mögliche Probleme bei einer 2-Faktor Authentifizierung mittels m-Tan?
-    -  Wenn beispielsweise Onlinebanking auf Smartphone benutzt wird und dort hin auch der mTan gesendet wird, ist die 2-Faktor Authentifizierung nicht mehr gegeben. Angreifer müssen so nur das Mobiltelefon besitzen um Zugriff zu erlangen. => Dazu muss aber auch Kennwort bekannt sein. Da zwei unterschiedliche Apps
+12. Was sind mögliche **Probleme bei einer 2-Faktor Authentifizierung mittels m-Tan**?
+    -  Wenn beispielsweise Onlinebanking auf Smartphone benutzt wird und dort hin auch der mTan gesendet wird, ist die 2-Faktor Authentifizierung nicht mehr gegeben. Angreifer müssen so nur das Mobiltelefon besitzen um Zugriff zu erlangen. 
+    - Dazu muss aber auch Kennwort bekannt sein, wenn zwei unterschiedliche Apps verwendet werden
 
 14. Erläutern Sie grob das Konzept der **biometrischen Authentifizierung**. Wie kann in diesem Zusammenhang die false accept rate und die false reject rate beeinflusst werden?
     -  Nutzung von individuellen körperlichen Merkmalen zur Authentifizierung.
@@ -364,7 +363,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     -  Alternativ: Berechnung mit symmetrischem Schlüssel
     -  Privater oder sym. Schlüssel ist im Chip der Karte gespeichert (Besitz)
     -  Aktivierung des priv. Schlüssels notwendig (2. Faktor)
-    -  Weil der Schlüssel nicht auslesbar ist.
+    -  Besonders sicher weil der Schlüssel nicht auslesbar ist
 
 16. Was bedeutet **Authentizität**?
     - Unter dem Begriff Authentizität versteht man das Sicherheitsziel, den Nachweis einer Identität zu erbringen. Es soll die Identität/ Herkunft/ Echtheit von Daten oder von einem Subjekt (Person, Rechner, Prozess etc.) nachgewiesen werden.
@@ -372,22 +371,22 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
 18. Beschreiben Sie den Vorteil einer Funkübertragung (RFID) im Vergleich zu einer Übertragung mittels direkten Kontakt bei Chipkarten.
     - Identität eines Gegenstands kann damit nachgewiesen werden und zwar aus der Ferne
     - z.B. Datenauslesen von einem Herzschrittmacher
-    - oder in der Logistik, ohne einen Kühlprozess unterbrechen zu müssen
+    oder in der Logistik, ohne einen Kühlprozess unterbrechen zu müssen
 
-19. Nennen Sie einen Vor- und Nachteil von Passwortmanagern und erläutern Sie warum Experten tendenziell zu Passwortmanagern raten.
+19. Nennen Sie einen Vor- und Nachteil von **Passwortmanagern** und erläutern Sie warum Experten tendenziell zu Passwortmanagern raten.
     - Vorteil: einfache Handhabung der Vielzahl von starken Passwörtern --> tendenziell stärkere und unterschiedliche Passwörter werden verwendet
     - Nachteil: single point of failure --> wenn jemand sich Zugriff dazu verschafft, kennt er alle Passwörter
     - Experten raten zu Passwortmanagern, da durch Passwortrichtlinien häufig Passwörter verändert werden müssen.
         - Nutzer werden genervt und können sich nicht die Vielzahl an Passwörtern merken.
         - verwendet häufig gleiche und tendenziell schwächere Passwörter
 
-20. Beschreiben Sie die Idee der 2-Faktor Authentifizierung und nennen Sie ein Beispiel.
+20. Beschreiben Sie die **Idee der 2-Faktor Authentifizierung** und nennen Sie ein Beispiel.
     - Die Authentifizierung erfolgt über 2 unabhängige Faktoren oder Kanäle. z.B. über die grundsätzlichen Methoden Wissen und Besitz: 
     - Bestätigung einer Überweisung mittels Eingabe eines TANs von einem TAN-Generator (extra Hardware)
         - Wissen über Passwort-Eingabe und Überweisungstätigung
         - Besitzt mittels TAN-Eingabe, vom TAN-Generator
 
-21. Welche Probleme können sich bei der biometrischen Authentifizierung ergeben?
+21. Welche Probleme können sich bei der **biometrischen Authentifizierung** ergeben?
     - Authentifizierung erfolgt mittels eines probabilistischen und nicht deterministischen Verfahrens.
     Dies bedeutet, dass die Wahrscheinlichkeit des Matchings mit den Referendaten festgelegt wird.
     - Biometrische Daten sind kein Geheimnis und nicht veränderbar.

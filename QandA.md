@@ -36,7 +36,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Recht auf Auskunft zu personenbezogenen Daten
     - Recht auf Berichtigung
     - Recht auf Löschung, „Recht auf Vergessenwerden“
-    - Keine Löschungspflicht
+        - Keine Löschungspflicht
     - Recht auf Einschränkung der Verarbeitung (alt: Sperrung) & Informationspflicht
     - Recht auf Datenübertragbarkeit
     - Widerspruch
@@ -50,10 +50,11 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - **Security by Design**: Der Begriff bedeutet, dass Sicherheitsanforderungen an Soft- und Hardware schon während der Entwicklungsphase eines Produktes berücksichtigt werden, um spätere Sicherheitslücken zu verhindern. Denn mit dem laufenden  Projektfortschritt steigen auch die Kosten für die Beseitigung von Sicherheitslücken. => Von Beginn an (Konzeptphase) schon Sicherheitsmechanismen bzw. Sicherheitstechniken nutzen. <br/>Zum Beispiel:
     verschlüsselte Datenübertragung, etc.
 	
-6. Was ist das Standard Datenschutzmodell und wobei hilft es?
+6. Was ist das **Standard Datenschutzmodell** und wobei hilft es?
     - Erfasst rechtliche Anforderungen der DSGVO
-    - Ordnet sie „Gewährleistungszielen“ zu
-    - Schlägt Referenz-TOMs für diese Gewährleistungsziele vor => Das SDM sagt uns, was wir tun sollen, um die DSGVO umzusetzen
+    - Ordnet die „Gewährleistungszielen“ zu
+    - Schlägt Referenz-TOMs für diese Gewährleistungsziele vor 
+        - Das SDM sagt uns, was wir tun sollen, um die DSGVO umzusetzen
     - Transformationshilfe zwischen Recht und Technik.
 
 7. Was sind die Aufgaben und Pflichten eines Datenschutzbeauftragten?
@@ -66,7 +67,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
         - Ansprechpartner für Betroffene
         - Für seine Aufgaben zur Vertraulichkeit verpflichtet
 
-8. Was müssen Sie im Falle einer Datenschutzpanne tun?
+8. Was müssen Sie im Falle einer **Datenschutzpanne** tun?
     - Wenn Risiko für die Betroffene besteht, muss binnen 72 Stunden an die Aufsichtbehörde gemeldet werden.
     - Die Meldung beinhaltet eine Beschreibung, was passiert ist, welche Folgen hat die Panne und was man dagegen unternommen hat
     - Bei hohem Risiko für die betroffenen Personen:
@@ -77,7 +78,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
         - Die Daten waren verschlüsselt (oder ähnlich unzugänglich)
         - Falls individuelle Benachrichtigung nicht praktikabel ist => öffentliche Bekanntmachung!
 
-9. Woran erkennen Sie, dass ein Unternehmen Datenschutzkonform arbeitet?
+9. Woran erkennen Sie, dass ein **Unternehmen Datenschutzkonform** arbeitet?
     - Garantien bzgl. Einhaltung der gesetzlichen Vorgaben
         - Am besten „genehmigte Verhaltensregeln“ (falls sie existieren)
     - Garantien bzgl. IT-Sicherheit
@@ -92,23 +93,14 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Wenn durch geeignete Maßnahmen das Risiko reduziert wurde.
     - Die Daten verschlüsselt waren.
 
-11. Welche Problematik ergibt sich bei anonymisierten Daten? Auf was muss man achten?
+11. Welche Problematik ergibt sich bei **anonymisierten Daten**? Auf was muss man achten?
     - Die Anonymisierung selbst ist ein Verarbeitungsschritt.
     - Es besteht das Risiko der De-Anonymisierung.
-    - Nachweispflicht, dass keine personenbezogenen enthalten sind.
+    - Nachweispflicht, dass keine personenbezogenen Daten enthalten sind.
 
-12. Beschreiben Sie mögliche Schritte im Falle einer Datenschutzpanne.
-    - Wenn ein Risiko für betroffene Personen besteht, muss binnen 72 h muss eine Schilderung des Sachverhaltes, die Folgen und Gegenmaßnahmen der Aufsichtsbehörde gemeldet werden.
-    - Wenn das Risiko als hoch eingestuft wird, müssen zusätzlich die betroffenen Personen unverzüglich informiert werden.
-
-13. Wer wacht über die Einhaltung der Datenschutzvorschriften?
-    - Betroffene Person: wenn Mechanismen zur Selbstkontrolle angeboten werden
-    - Unternehmen, Verantwortlicher: Datenschutzbeauftragter / Geschäftsführung
-    - Staat: Aufsichtsbehörde, Gerichte ...
-
-15. Was versteht man unter Privacy by Design und Privacy by Default?
-    - Privacy by design: IT-Systeme werde schon konzipiert ohne die Fähigkeit zusätzliche Daten abzuspeichern
-    - Privacy by default: IT-Systeme / Software sind standardmäßig mit aktive Privacy Einstellung.
+15. Was versteht man unter **Privacy by Design** und **Privacy by Default**?
+    - **Privacy by design**: IT-Systeme werde schon konzipiert ohne die Fähigkeit zusätzliche Daten abzuspeichern
+    - **Privacy by default**: IT-Systeme / Software sind standardmäßig mit aktive Privacy Einstellung.
 
 17. Unter welche umstände ist es **erforderlich einen Datenschutzbeauftragter** und muß er Angestellter des Unternehmens sein?
     - für Behörden, öffentliche Stellen
@@ -117,22 +109,22 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     (seite 66)
     - Nein,ein Datenschutzbeauftragter kann auch Extern sein
 
-18. Ab wann muss ein Verzeichnis über Verarbeitungstätigkeiten geführt werden?
+18. Ab wann muss ein **Verzeichnis über Verarbeitungstätigkeiten** geführt werden?
     - Bei Firmen mit mehr als 250 Mitarbeitern <br/>ODER
     - Wenn die Verarbeitung ein Risiko für Rechte und Freiheiten der betroffenen Personen birgt <br/>ODER
     - Wenn besondere Kategorien personenbezogener Daten verarbeitet werden <br/>ODER
     - Verarbeitung nicht nur gelegentlich
 
-19. Was versteht man unter Anonymisierung und Pseudonymisierung?
+19. Was versteht man unter **Anonymisierung** und **Pseudonymisierung**?
     - Anonymisiert sind Daten wo es unmöglich ist einen Personenbezug wiederherzustellen. Pseudonymisierte Daten haben auch kein direkte Personenbezug mehr, aber es ist dagegen möglich einen Bezug auf andere Datensätze.
 
 20. Warum wird Datenschutz auf **rechtlicher Ebene** geregelt?
     - Ungleiche Beziehung => enormes Ungleichgewicht Einzelne Person <=> übermächtige Institution ( Staat, Unternehmen)
 
-21. Warum ist Zweckbindung wichtig? Was ist das Gegenteil?
+21. Warum ist **Zweckbindung** wichtig? Was ist das Gegenteil?
     - Zweckbindung ist wichtig damit die Daten nicht für andere nicht eingewilligte Zwecke Missbraucht werden. Gegenteil: Vorratsspeicherung der Daten.
 
-22. Warum ist eine Verjährung von Personenbezogene Daten sinnvoll?
+22. Warum ist eine **Verjährung** von Personenbezogene Daten sinnvoll?
     - Gesellschaftlicher Konsens ändert sich im Laufe der Zeit. Kontext von Daten ändert sich: Was mal OK war, kann später verachtet werden.
 
 23. Was versteht man unter Datenminimierung?
@@ -155,7 +147,7 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Öffentliche Daten
     - Eigene berechtigte Interesse (z.B. vor Gericht)
 
-26. Nennen Sie 3 Grundsätze des Datenschutzes?
+26. Nennen Sie 3 **Grundsätze des Datenschutzes**?
     - Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz
     - Zweckbindung
     - Datenminimierung
@@ -165,24 +157,24 @@ Aus dem Modul Datensicherheit - Prof. Raptis - OTH Regensburg - SoSe 2020
     - Rechenschaftspflicht
     - Betroffenenrechte
 
-27. Wer wacht über die Einhaltung der Datenschutzvorschriften?
+27. Wer wacht über die **Einhaltung der Datenschutzvorschriften**?
     - Betroffene Personen sollten selbst über die Einhaltung der Datenschutzvorschriften wachen.
     - In Unternehmen: Datenschutzbeauftragter
     - Staat: Aufsichtsbehörde: Bundesdatenschutzbeauftragte/r, Landesdatenschutzbeauftragte, Gerichte
 
-28. Was ist der Unterschied zwischen Pseudonymisierung und Anonymisierung?
+28. Was ist der Unterschied zwischen **Pseudonymisierung** und **Anonymisierung**?
     - Unter ​Pseudonymisierung​ ist die Verarbeitung von Daten in der Weise zu verstehen, dass sie in der Folge nur dann noch einer spezifischen Person zugeordnet werden können, wenn man hierzu auf zusätzliche und gegebenenfalls an anderer Stelle vorhandene Informationen zurückgreifen kann, die es erlauben, einen konkreten Personenbezug (wieder) herzustellen.
     - Anonymisierung​. Das Verändern personenbezogener Daten derart, dass die Einzelangaben über persönliche oder sachliche Verhältnisse nicht mehr oder nur mit einem unverhältnismäßig großen Aufwand an Zeit, Kosten und Arbeitskraft einer bestimmten oder bestimmbaren natürlichen Person zugeordnet werden können.“
-    - Kurz und knapp: Pseudonymisierung​ kann wieder aufgehoben werden (z.B. durch Mapping Liste) Anonymisierung ​keine Reidentifikation möglich
+    - Kurz und knapp: Pseudonymisierung​ kann wieder aufgehoben werden (z.B. durch Mapping Liste) Anonymisierung ​keine Re-identifikation möglich.
     
-29. Welche Maßnahmen gehören zum Grundsatz Integrität und Vertraulichkeit? Nennen Sie bitte je ein Beispiel.
+29. Welche Maßnahmen gehören zum **Grundsatz Integrität und Vertraulichkeit**? Nennen Sie bitte je ein Beispiel.
     - TOM = technische und organisatorische Maßnahmen
     - Technische Maßnahmen
         - IT-Sicherheit, Privacy bei Design, Privacy by Default, Security by Design / by Default 
     - Organisatorische Maßnahmen
         - Prozesse des Risikomanagements, IT-Sicherheitsmanagement
 
-30. Oft werden personenbezogenen Daten für automatisierte Entscheidungen verwendet. Unter welche Bedingungen hat man das Rechte auf eine Menschliche Entscheidung? Beschreiben Sie eine solche Situation.
+30. Oft werden personenbezogenen Daten für automatisierte Entscheidungen verwendet. Unter welche Bedingungen hat man das **Recht auf eine Menschliche Entscheidung**? Beschreiben Sie eine solche Situation.
     - Bei rechtlicher Wirkung der Entscheidung oder erheblicher Beeinträchtigung der betroffenen Person
     - Entscheidungen, die auf besondere Kategorien personenbezogener Daten beruhen
     - Beispiel: Automatisierte Auswertung der Kreditwürdigkeit (Schufa) <br/> Ein Algorithmus kategorisiert eine kreditwürdige Person fälschlicherweise als nicht kreditwürdig. Somit kann man von seinem Recht auf eine menschliche Entscheidung gebrauch machen.
